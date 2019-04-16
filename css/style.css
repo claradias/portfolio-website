@@ -1,7 +1,3 @@
-body {
-  background-color: #FFFAFA;
-}
-
 /*
 colors used:
 Primary colour (Black): #000000;
@@ -11,6 +7,7 @@ active link (dark green): #00785d:
 visited link (blue): #0071C5.
 */
 body {
+  background-color: #FFFAFA;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -55,14 +52,13 @@ a:hover {
   text-decoration: underline;
 }
 
-a:active {
+a:focus {
   color: #00785d;
+  text-decoration: underline;
 }
 
-a:hover,
-a:focus {
-  color: #00AB84;
-  text-decoration: underline;
+a:active {
+  color: #00785d;
 }
 
 /*
@@ -117,6 +113,12 @@ visited link (blue): #0071C5.
 .button.contact:active {
   color: #00785d;
 }
+
+.intro {}
+
+.skills {}
+
+.tools {}
 
 #hero {}
 
