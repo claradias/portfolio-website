@@ -3,9 +3,95 @@ colors used:
 Primary colour (Black): #000000;
 Secondary Colour (Snow): #FFFAFA;
 Hover state (Green): #00AB84;
-active link (dark green): #00785d:
-visited link (blue): #0071C5.
+active link (dark green): #00785d;
+visited link (blue): #0071C5;
+header background color(ghost white): #F8F8FF
 */
+/* Layout styling*/
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
+}
+
+.logo {
+  color: #FFFFFF !important;
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  line-height: 2;
+  max-width: 250px;
+  text-align: center;
+}
+
+header {
+  background-color: #00AB84;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #00785d;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 3px 4px 13px 0px rgba(50, 50, 50, 0.75);
+  position: fixed;
+  width: 100%;
+}
+
+main {
+  padding-top: 133px;
+}
+
+#hero {
+  background-color: #00AB84;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000000;
+}
+
+nav {
+  width: 100%;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav>ul>li>a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #FFFAFA;
+}
+
+nav>ul>li>a:visited {
+  color: #0071C5
+}
+
+nav>ul>li>a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+nav>ul>li>a:active {
+  color: #FFFAFA;
+}
+
 body {
   background-color: #FFFAFA;
   font-family: 'Roboto', sans-serif;
@@ -20,17 +106,17 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2.75em;
+  font-size: 1.80em;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 1.70em;
   font-weight: 500;
 }
 
 h3 {
-  font-size: 1.75em;
+  font-size: 1.50em;
   font-weight: 400;
 }
 
@@ -56,14 +142,6 @@ a:active {
   color: #00785d;
 }
 
-/*
-colors used:
-Primary colour (Black): #000000;
-Secondary Colour (Snow): #FFFAFA;
-Hover state (Green): #00AB84;
-active link (dark green): #00785d:
-visited link (blue): #0071C5.
-*/
 .button {
   display: inline-block;
   background-color: #00785d;
@@ -85,14 +163,6 @@ visited link (blue): #0071C5.
   color: #00785d;
 }
 
-/*
-colors used:
-Primary colour (Black): #000000;
-Secondary Colour (Snow): #FFFAFA;
-Hover state (Green): #00AB84;
-active link (dark green): #00785d:
-visited link (blue): #0071C5.
-*/
 .button.contact {
   background-color: transparent;
   color: #00785d !important;
@@ -109,14 +179,14 @@ visited link (blue): #0071C5.
   color: #00785d;
 }
 
+.center {
+  text-align: center;
+}
+
 .intro {}
 
 .skills {}
 
 .tools {}
-
-#hero {}
-
-#work {}
 
 #contact {}
