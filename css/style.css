@@ -273,6 +273,10 @@ Medium devices (640px and larger)
     float: left;
   }
 
+  #hero span {
+    display: block;
+  }
+
   main {
     padding-top: 99px;
   }
@@ -280,10 +284,6 @@ Medium devices (640px and larger)
   body {
     font-size: 18px;
   }
-}
-
-#hero span {
-  display: block;
 }
 
 .col-md-6 {
@@ -314,6 +314,10 @@ Large devices (1024px or larger)
     width: 41.66%;
   }
 
+  .col-lg-6 {
+    width: 50%;
+  }
+
   .col-lg-7 {
     width: 58.33%;
   }
@@ -322,6 +326,17 @@ Large devices (1024px or larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 0 10px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
 }
 
