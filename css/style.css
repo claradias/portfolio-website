@@ -53,6 +53,7 @@ main {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+  text-align: center;
 }
 
 #work .row {
@@ -61,7 +62,7 @@ main {
 }
 
 nav {
-  width: 100%;
+  width: 100%
 }
 
 nav>ul {
@@ -254,8 +255,94 @@ footer {
   font-size: 14px;
 }
 
-.tools {}
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
 
-.skills {}
+  nav {
+    width: auto;
+    float: right;
+  }
 
-#contact {}
+  .logo {
+    float: left;
+  }
+
+  main {
+    padding-top: 99px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+}
+
+#hero span {
+  display: block;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 0 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#about-page h3 {
+  margin-top: 0;
+}
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  .col-lg-4 {
+    width: 33.33%
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-7 {
+    width: 58.33%;
+  }
+
+  .col-lg-8 {
+    width: 66.66%;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {}
+
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {}
