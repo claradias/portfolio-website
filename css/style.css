@@ -141,6 +141,7 @@ img {
 a {
   color: #0071C5;
   text-decoration: none;
+  transition: 0.4s opacity;
 }
 
 a:visited {
@@ -150,6 +151,7 @@ a:visited {
 a:hover, a:focus {
   color: #00AB84;
   text-decoration: underline;
+  opacity: 0.8s;
 }
 
 a:active {
