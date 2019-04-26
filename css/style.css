@@ -284,32 +284,106 @@ Medium devices (640px and larger)
   body {
     font-size: 18px;
   }
-}
 
-.col-md-6 {
-  width: 50%;
-}
+  .col-md-6 {
+    width: 50%;
+  }
 
-[class*="col-"] {
-  float: left;
-  padding: 0 10px;
-}
+  [class*="col-"] {
+    float: left;
+    padding: 0 10px;
+  }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
-#about-page h3 {
-  margin-top: 0;
-}
+  #about-page h3 {
+    margin-top: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #work img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 27px auto;
+  }
+
+  #profile img {
+    width: 50%;
+    height: auto;
+    display: block;
+  }
+
+  #interviews img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 27px auto;
+  }
+
+  #personas img {
+    width: 90%;
+    height: auto;
+    display: block;
+  }
+
+  #journeys img {
+    width: 90%;
+    height: auto;
+    display: block;
+  }
+
+  #sitemap img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #wireframes img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #testing img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 27px auto;
+  }
+
+  #problems img {
+    width: 60%;
+    height: auto;
+    display: block;
+  }
+
+  #design img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+
   .col-lg-5 {
     width: 41.66%;
   }
@@ -338,6 +412,77 @@ Large devices (1024px or larger)
     clear: both;
     display: table;
   }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #work img {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: 27px auto;
+  }
+
+  #profile img {
+    width: 40%;
+    height: auto;
+    display: block;
+  }
+
+  #interviews img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 27px auto;
+  }
+
+  #personas img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #journeys img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #sitemap img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #wireframes img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #testing img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 27px auto;
+  }
+
+  #problems img {
+    width: 50%;
+    height: auto;
+    display: block;
+  }
+
+  #design img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 }
 
 /* ==============================
@@ -349,3 +494,17 @@ X-large devices (1440px or larger)
 Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {}
+
+@keyframes color-change {
+  from {
+    fill: #edc655;
+  }
+
+  to {
+    fill: #f76414
+  }
+}
+
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
