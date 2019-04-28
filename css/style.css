@@ -70,6 +70,7 @@ main {
   border: 2px solid #00785d;
   margin: 0 auto;
 }
+
 .tools {
   border: 2px solid #00785d;
   margin: 0 auto;
@@ -100,7 +101,7 @@ nav>ul>li>a:visited {
 }
 
 nav>ul>li>a:hover {
-  color: #000000;
+  color: #00AB84;
   text-decoration: underline;
 }
 
@@ -113,7 +114,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #000000;
+  color: #00AB84;
 }
 
 nav a:active {
@@ -194,7 +195,7 @@ a:active {
 .button.about {
   display: inline-block;
   background-color: #ffffff;
-  color: #00785d!important;
+  color: #00785d !important;
   font-weight: 400;
   padding: 15px 30px;
   border-bottom: 2px solid #00785d;
@@ -376,7 +377,7 @@ Medium devices (640px and larger)
     max-width: 90%;
     display: block;
     margin: 0 auto;
-    padding:10px 0;
+    padding: 10px 0;
   }
 
   #sitemap img {
