@@ -349,61 +349,61 @@ Medium devices (640px and larger)
   }
 
   #work img {
-    max-width: 70%;
+    width: 70%;
     display: block;
     margin: 27px auto;
   }
 
   #profile img {
-    max-width: 50%;
+    width: 50%;
     display: block;
     margin: 10px auto 0;
   }
 
   #interviews img {
-    max-width: 60%;
+    width: 60%;
     display: block;
     margin: 27px auto;
   }
 
   #personas img {
-    max-width: 90%;
+    width: 90%;
     display: block;
     margin: 0 auto;
     padding: 10px 0;
   }
 
   #journeys img {
-    max-width: 90%;
+    width: 90%;
     display: block;
     margin: 0 auto;
     padding: 10px 0;
   }
 
   #sitemap img {
-    max-width: 100%;
+    width: 100%;
     display: block;
   }
 
   #wireframes img {
-    max-width: 100%;
+    width: 100%;
     display: block;
   }
 
   #testing img {
-    max-width: 60%;
+    width: 60%;
     display: block;
     margin: 27px auto;
   }
 
   #problems img {
-    max-width: 60%;
+    width: 60%;
     display: block;
     margin: 0 auto;
   }
 
   #design img {
-    max-width: 100%;
+    width: 100%;
     display: block;
   }
 }
@@ -436,7 +436,6 @@ Large devices (1024px or larger)
 
   [class*="col-"] {
     float: left;
-    padding: 0 10px;
   }
 
   .row::after {
@@ -460,7 +459,6 @@ Large devices (1024px or larger)
 
   #profile img {
     width: 40%;
-    display: block;
   }
 
   #interviews img {
@@ -470,38 +468,19 @@ Large devices (1024px or larger)
 
   #personas img {
     width: 100%;
-    display: block;
   }
 
   #journeys img {
     width: 100%;
-    display: block;
-  }
-
-  #sitemap img {
-    width: 100%;
-    display: block;
-  }
-
-  #wireframes img {
-    width: 100%;
-    display: block;
   }
 
   #testing img {
     width: 50%;
-    display: block;
     margin: 27px auto;
   }
 
   #problems img {
     width: 50%;
-    display: block;
-  }
-
-  #design img {
-    width: 100%;
-    display: block;
   }
 }
 
