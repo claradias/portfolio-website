@@ -67,12 +67,7 @@ main {
 }
 
 .skills {
-  border: 2px solid #00785d;
-  margin: 0 auto;
-}
-
-.tools {
-  border: 2px solid #00785d;
+  background-color: #c7d8c6;
   margin: 0 auto;
 }
 
@@ -321,6 +316,10 @@ Medium devices (640px and larger)
     font-size: 18px;
   }
 
+  .skills {
+    margin: 30px auto;
+  }
+
   .col-md-6 {
     width: 50%;
   }
@@ -414,6 +413,10 @@ Large devices (1024px or larger)
 @media only screen and (min-width: 1024px) {
   body {
     font-size: 18px;
+  }
+
+  .skills {
+    margin: 0 auto;
   }
 
   .col-lg-5 {
