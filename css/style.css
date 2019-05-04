@@ -8,6 +8,10 @@ visited link (blue): #0071C5;
 background color: #D3D8DC;
 */
 /* Layout styling*/
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -33,12 +37,9 @@ background color: #D3D8DC;
 
 header {
   background-color: #379683;
-  padding: 10px;
-  margin: 10px;
+  padding: 10px 0 4px;
   border-bottom: 3px solid #00785d;
   margin: 0 auto;
-  text-align: center;
-  padding: 10px 0;
   box-shadow: 3px 4px 13px 0px rgba(50, 50, 50, 0.75);
   position: fixed;
   width: 100%;
@@ -46,7 +47,7 @@ header {
 }
 
 main {
-  padding-top: 133px;
+  padding-top: 56px;
 }
 
 #hero {
@@ -71,17 +72,10 @@ main {
   margin: 0 auto;
 }
 
-nav {
-  width: 100%
-}
-
 nav>ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav>ul>li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav>ul>li>a {
@@ -114,6 +108,36 @@ nav a:hover {
 
 nav a:active {
   color: #FFFAFA;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle.responsive nav {
+  padding: 20px 0 0;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 14px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(0, 120, 0, 93);
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
 }
 
 body {
@@ -298,6 +322,22 @@ Medium devices (640px and larger)
   nav {
     width: auto;
     float: right;
+  }
+
+  nav>ul {
+    margin: 1em 0;
+  }
+
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
   .logo {
