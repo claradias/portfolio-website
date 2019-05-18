@@ -86,7 +86,7 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:visited {
-  color: #fff;
+  color: #000;
 }
 
 nav>ul>li>a :hover {
@@ -196,7 +196,7 @@ a:active {
   color: #000;
 }
 
-.iconmenu {
+.iconmenu:focus {
   text-decoration: none;
 }
 
