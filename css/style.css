@@ -7,7 +7,6 @@ active link (dark green): #00785d;
 visited link (blue): #0071C5;
 background color: #D3D8DC;
 */
-
 /* Layout styling */
 html {
   scroll-behavior: smooth;
@@ -22,7 +21,8 @@ html {
 }
 
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
 
 .logo {
@@ -301,7 +301,7 @@ footer {
   margin: 5px;
 }
 
-.icons ul > .icons li > .icons a {
+.icons ul>.icons li>.icons a {
   padding: 0 15px;
 }
 
@@ -597,6 +597,22 @@ X-large devices (1440px or larger)
 @media only screen and (min-width: 1440px) {
   body {
     font-size: 22px;
+  }
+
+  .col-xl-12 {
+    width: 100%;
+  }
+
+  .col-xl-6 {
+    width: 50%;
+  }
+
+  .row-xl-12 {
+    width: 100%;
+  }
+
+  .row-xl-6 {
+    width: 50%;
   }
 
   .container {
