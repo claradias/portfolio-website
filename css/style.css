@@ -462,7 +462,7 @@ Medium devices (640px and larger)
   }
 
   #profile img {
-    width: 50%;
+    width: 100%;
     display: block;
     margin: 10px auto 0;
   }
