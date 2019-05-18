@@ -198,7 +198,7 @@ a:active {
 
 .navtoggle:hover,
 .navtoggle:focus {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .button {
