@@ -196,6 +196,10 @@ a:active {
   color: #000;
 }
 
+.iconmenu {
+  text-decoration: none;
+}
+
 .button {
   display: inline-block;
   background-color: #00785d;
@@ -314,7 +318,7 @@ footer {
 }
 
 .icons a:active {
-  color: #00785d;
+  color: #000;
 }
 
 .copyright {
