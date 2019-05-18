@@ -89,13 +89,13 @@ nav > ul > li > a:visited {
   color: #000;
 }
 
-nav>ul>li>a :hover {
+nav>ul>li>a:hover {
   color: #00ab84;
   text-decoration: underline;
 }
 
 nav>ul>li>a:active {
-  color: #fffafa;
+  color: #000;
 }
 
 nav a {
@@ -181,24 +181,15 @@ a {
   transition: 0.4s opacity;
 }
 
-a:visited {
-  color: #000;
-}
-
-a:hover,
-a:focus {
-  color: #00ab84;
-  text-decoration: underline;
-  opacity: 0.8;
-}
-
+a:visited,
 a:active {
   color: #000;
 }
 
-.navtoggle:hover,
-.navtoggle:focus {
-  text-decoration: none !important;
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+  opacity: 0.8;
 }
 
 .button {
