@@ -196,8 +196,8 @@ a:active {
   color: #000;
 }
 
-.icon.menu:hover,
-.icon.menu:focus {
+.navtoggle:hover,
+.navtoggle:focus {
   text-decoration: none;
 }
 
