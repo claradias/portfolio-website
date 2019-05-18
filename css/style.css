@@ -7,7 +7,7 @@ active link (dark green): #00785d;
 visited link (blue): #0071C5;
 background color: #D3D8DC;
 */
-/* Layout styling*/
+/* Layout styling */
 html {
   scroll-behavior: smooth;
 }
@@ -26,21 +26,21 @@ html {
 }
 
 .logo {
-  color: #FFFAFA !important;
+  color: #fffafa !important;
   font-family: 'Lora', serif;
   font-size: 30px;
   line-height: 2;
   max-width: 250px;
-  align: center;
+  align-content: center;
   text-decoration: none !important;
 }
 
 header {
-  background-color: #379683;
+  background-color: #378373;
   padding: 10px 0 4px;
   border-bottom: 3px solid #00785d;
   margin: 0 auto;
-  box-shadow: 3px 4px 13px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 3px 4px 13px rgba(50, 50, 50, 0.75);
   position: fixed;
   width: 100%;
   z-index: 9999;
@@ -59,12 +59,12 @@ main {
 }
 
 .about {
-  background-color: #FFFAFA !important;
+  background-color: #fffafa !important;
 }
 
 #work .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #000;
 }
 
 .skills {
@@ -82,39 +82,40 @@ nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #FFFAFA;
+  color: #fffafa;
 }
 
 nav>ul>li>a:visited {
-  color: #0071C5;
+  color: #0071c5;
 }
 
-nav>ul>li>a:hover {
-  color: #00AB84;
+nav>ul>li>a :hover {
+  color: #00ab84;
   text-decoration: underline;
 }
 
 nav>ul>li>a:active {
-  color: #FFFAFA;
+  color: #fffafa;
 }
 
 nav a {
-  color: #FFFAFA !important;
+  color: #fffafa !important;
 }
 
 nav a:hover {
-  color: #00AB84;
+  color: #00ab84;
 }
 
 nav a:active {
-  color: #FFFAFA;
+  color: #fffafa;
 }
 
 .navtoggle li:not(:last-child) {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
@@ -141,30 +142,32 @@ nav a:active {
 }
 
 body {
-  background-color: #FFFAFA;
+  background-color: #fffafa;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
-  color: #000000;
+  color: #000;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   line-height: 1.4;
 }
 
 h1 {
-  font-size: 1.80em;
+  font-size: 1.8em;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 1.70em;
+  font-size: 1.7em;
   font-weight: 500;
 }
 
 h3 {
-  font-size: 1.50em;
+  font-size: 1.5em;
   font-weight: 400;
 }
 
@@ -173,29 +176,30 @@ img {
 }
 
 a {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   transition: 0.4s opacity;
 }
 
 a:visited {
-  color: #000000;
+  color: #000;
 }
 
-a:hover, a:focus {
-  color: #00AB84;
+a:hover,
+a:focus {
+  color: #00ab84;
   text-decoration: underline;
-  opacity: 0.8s;
+  opacity: 0.8;
 }
 
 a:active {
-  color: #000000;
+  color: #000;
 }
 
 .button {
   display: inline-block;
   background-color: #00785d;
-  color: #ffffff !important;
+  color: #fff !important;
   font-weight: 400;
   padding: 15px 30px;
   border-bottom: 2px solid #00785d;
@@ -205,7 +209,7 @@ a:active {
 }
 
 .button:hover {
-  color: #00AB84;
+  color: #00ab84;
   opacity: 0.8;
   text-decoration: none;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
@@ -213,7 +217,7 @@ a:active {
 
 .button.about {
   display: inline-block;
-  background-color: #ffffff;
+  background-color: #fff;
   color: #00785d !important;
   font-weight: 400;
   padding: 15px 30px;
@@ -224,7 +228,7 @@ a:active {
 }
 
 .button.about:hover {
-  color: #00AB84;
+  color: #00ab84;
   opacity: 0.8;
   text-decoration: none;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
@@ -235,18 +239,19 @@ a:active {
 }
 
 .button.contact {
-  background-color: #FFFFFF;
+  background-color: #fff;
   color: #00785d !important;
   text-transform: uppercase;
   border: 2px solid #00785d;
   text-align: center;
   border-radius: 12px;
-  transition: 0.4s box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .button.contact:hover {
-  background-color: #00AB84;
-  color: #ffffff !important;
+  background-color: #00ab84;
+  color: #fff !important;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -263,6 +268,12 @@ a:active {
   line-height: 4;
 }
 
+.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 footer {
   background-color: #379683;
   border-top: 3px solid #00785d;
@@ -273,14 +284,14 @@ footer {
 
 .icons {
   width: 100%;
-  font-size: 1.60em;
-  align: center;
+  font-size: 1.6em;
+  align-content: center;
   margin: 0;
   padding: 20px 0;
 }
 
 .icons ul {
-  list style-type: none;
+  list-style-type: none;
   padding: 0;
 }
 
@@ -295,11 +306,11 @@ footer {
 }
 
 .icons a {
-  color: #FFFAFA;
+  color: #fffafa;
 }
 
 .icons a:hover {
-  color: #00AB84;
+  color: #00ab84;
 }
 
 .icons a:active {
@@ -396,6 +407,12 @@ Medium devices (640px and larger)
     width: 100%;
   }
 
+  #backpicture img {
+    width: 100%;
+    display: block;
+    margin: 27px auto;
+  }
+
   #work img {
     width: 70%;
     display: block;
@@ -409,7 +426,7 @@ Medium devices (640px and larger)
   }
 
   #interviews img {
-    width: 60%;
+    width: 100%;
     display: block;
     margin: 27px auto;
   }
@@ -461,7 +478,7 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
   body {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .skills {
@@ -514,7 +531,7 @@ Large devices (1024px or larger)
   }
 
   #interviews img {
-    width: 50%;
+    width: 100%;
     margin: 27px auto;
   }
 
@@ -527,12 +544,12 @@ Large devices (1024px or larger)
   }
 
   #testing img {
-    width: 50%;
+    width: 100%;
     margin: 27px auto;
   }
 
   #problems img {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -544,46 +561,46 @@ X-large devices (1440px or larger)
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-@media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1920px) {
+  @keyframes color-change {
+    from {
+      fill: #edc655;
+    }
 
-@keyframes color-change {
-  from {
-    fill: #edc655;
+    to {
+      fill: #f76414;
+    }
   }
 
-  to {
-    fill: #f76414
-  }
-}
-
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
+  .sun {
+    animation: 4s color-change infinite alternate linear;
   }
 
-  to {
-    transform: translate(200px, 50px);
-  }
-}
+  @keyframes cloud-move {
+    from {
+      transform: translate(0, 50px);
+    }
 
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
+    to {
+      transform: translate(200px, 50px);
+    }
   }
 
-  to {
-    transform: translate(100px, 48px);
+  .cloud-front {
+    animation: 30s cloud-move infinite alternate linear;
   }
-}
 
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
+  @keyframes cloud-move-reverse {
+    from {
+      transform: translate(446px, 48px);
+    }
+
+    to {
+      transform: translate(100px, 48px);
+    }
+  }
+
+  .cloud-back {
+    animation: 34s cloud-move-reverse infinite alternate linear;
+  }
 }
