@@ -197,7 +197,7 @@ a:active {
 }
 
 .icon.menu:hover,
-.icon.menu:focus, {
+.icon.menu:focus {
   text-decoration: none;
 }
 
