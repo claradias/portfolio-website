@@ -196,7 +196,9 @@ a:active {
   color: #000;
 }
 
-.iconmenu:focus {
+.iconmenu:visited,
+.iconmenu:visited,
+.iconmenu:hover {
   text-decoration: none;
 }
 
