@@ -7,6 +7,7 @@ active link (dark green): #00785d;
 visited link (blue): #0071C5;
 background color: #D3D8DC;
 */
+
 /* Layout styling */
 html {
   scroll-behavior: smooth;
@@ -21,8 +22,7 @@ html {
 }
 
 .row {
-  margin: 25px 0;
-  /* 25px top and bottom, 0 left and right */
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
 .logo {
@@ -301,7 +301,7 @@ footer {
   margin: 5px;
 }
 
-.icons ul>.icons li>.icons a {
+.icons ul > .icons li > .icons a {
   padding: 0 15px;
 }
 
@@ -599,20 +599,17 @@ X-large devices (1440px or larger)
     font-size: 22px;
   }
 
-  .col-xl-6 {
-    width: 50%;
-  }
-
-  .col-xl-12 {
-    width: 100%;
-  }
-
   .container {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
   }
+
+  .skills {
+    margin: 0 auto;
+  }
 }
+
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
