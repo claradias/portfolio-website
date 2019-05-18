@@ -603,19 +603,19 @@ X-large devices (1440px or larger)
     margin: 0 auto;
   }
 
-  .col-lg-5 {
+  .col-xl-5 {
     width: 41.66%;
   }
 
-  .col-lg-6 {
+  .col-xl-6 {
     width: 50%;
   }
 
-  .col-lg-7 {
+  .col-xl-7 {
     width: 58.33%;
   }
 
-  .col-lg-12 {
+  .col-xl-12 {
     width: 100%;
   }
 
