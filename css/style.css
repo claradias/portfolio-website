@@ -7,6 +7,7 @@ active link (dark green): #00785d;
 visited link (blue): #0071C5;
 background color: #D3D8DC;
 */
+
 /* Layout styling */
 html {
   scroll-behavior: smooth;
@@ -21,8 +22,7 @@ html {
 }
 
 .row {
-  margin: 25px 0;
-  /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;/* 25px top and bottom, 0 left and right */
 }
 
 .logo {
@@ -72,21 +72,21 @@ main {
   margin: 0 auto;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #fffafa;
 }
 
-nav>ul>li>a:visited {
-  color: #0071c5;
+nav > ul > li > a:visited {
+  color: #fff;
 }
 
 nav>ul>li>a :hover {
@@ -301,7 +301,7 @@ footer {
   margin: 5px;
 }
 
-.icons ul>.icons li>.icons a {
+.icons ul > .icons li > .icons a {
   padding: 0 15px;
 }
 
@@ -377,11 +377,11 @@ Medium devices (640px and larger)
     float: right;
   }
 
-  nav>ul {
+  nav > ul {
     margin: 1em 0;
   }
 
-  nav>ul>li {
+  nav > ul > li {
     display: inline-block;
   }
 
