@@ -435,6 +435,10 @@ Medium devices (640px and larger)
     padding: 0 10px;
   }
 
+.row {
+  margin: 0 auto;
+}
+
   .row::after {
     content: "";
     clear: both;
