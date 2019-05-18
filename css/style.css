@@ -543,6 +543,10 @@ Large devices (1024px or larger)
     width: 58.33%;
   }
 
+  .col-lg-12 {
+    width: 100%;
+  }
+
   .container {
     max-width: 1200px;
     margin-left: auto;
@@ -573,7 +577,7 @@ Large devices (1024px or larger)
   }
 
   #profile img {
-    width: 40%;
+    width: 100%;
   }
 
   #interviews img {
