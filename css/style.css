@@ -196,9 +196,8 @@ a:active {
   color: #000;
 }
 
-.iconmenu:visited,
-.iconmenu:visited,
-.iconmenu:hover {
+.fas.fa-bars:hover,
+.fas.far-bars:focus, {
   text-decoration: none;
 }
 
