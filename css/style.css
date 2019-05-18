@@ -624,6 +624,10 @@ X-large devices (1440px or larger)
   .skills {
     margin: 0 auto;
   }
+
+  .row {
+    margin: 25px auto;
+  }
 }
 
 /* ==============================
