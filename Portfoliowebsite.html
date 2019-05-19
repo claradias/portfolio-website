@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:700?7CRoboto:300,400,500,700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Clara Dias UX Design project - Ink Tank web app</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+        <div>
+          <a href="index.html" class="logo">CLARA DIAS</a>
+        </div>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main id="top">
+    <div class="container" id="introscreen">
+      <picture>
+        <source srcset="img/Portfoliowebsite/IntroScreen/portfoliowebsite_600.jpg" media="(max-width:767px)">
+        <img src="img/Portfoliowebsite/IntroScreen/portfoliowebsite_1200.jpg" alt="introscreen">
+      </picture>
+      <div>
+        <div>
+          <h2 class="center">Overview</h2>
+          <p>
+            My portfolio website was created to showcase my UX projects for potential employers and to highlight my UX design skills as well frontend skills.
+          </p>
+          <p>
+            This website was built using HTML, CSS and Javascript languages that resulted from the knowledge that I gained throughout the Frontend Development for Designer Course at Career Foundry. As a result, I develop important skills that not
+            only made me confident as a designer, but as well in the contact with web development teams.
+          </p>
+          <p>
+            The final result is a responsive website that meets accessibility standards and sustainable hosted within a period of two months (March - May 2019)
+          </p>
+          <p>
+            <b>You can access the GitHub repository for the website - <a href="https://github.com/claradias/portfolio-website" target="_blank"><u>Here</u></a></b>
+          </p>
+        </div>
+        <div>
+          <h2 class="center">Context and Challenge</h2>
+          <p>
+            In addition to my UX design skills I was encourage to learn the basics of HTML, CSS and JavaScript languages. Therefore, I would enhance my skills and learn how to work better with other designers and/or web developers within the team.
+          </p>
+          <p>
+            As a prospect UX designer, showcase a strong portfolio is core for landing in the first UX job. Therefore, as I only had a pdf resume and a Behance page, building a portfolio site was crucial to show my work and development skills.
+          </p>
+          <p>
+            Overall, I aimed with this project to learn the basic of frontend development and have a responsive and accessible website that portrait me as UX designer.
+          </p>
+        </div>
+        <div>
+          <h2 class="center">Process and Insight</h2>
+          <p>
+            The idea of creating a website from scratch using frontend languages sounded terrifying. I guess this is the feeling when one is trying something new. However this time I could count with a lot of support from my mentor.
+          </p>
+          <p>
+            The course project brief suggested a home, about, projects and contact pages and provided low-fidelity wireframes of what the pages would look like and what content would be included.
+          </p>
+          <p>
+            I then wrote all the content of my portfolio and made font and color palette choices. As I wanted the website to portrait who I am as a person and designer, colours related with nature and clear and simple layout design were vital. Hence,
+            reflecting minimalism, simplicity and quietness.
+          </p>
+          <p>
+            I wanted the design to reflect professionalism and sophistication through the use of black in a clean white background. The use of green is to evoke sustainability and compassionate design, as well to emphasize balance and stability.
+          </p>
+          <p>
+            With this combination of contrasting colors, I intend to create a welcoming, and enjoyable experience for the user throughout the portfolio site.
+          </p>
+          <p>
+            I have chosen to use the typography of Roboto as it is portfolio friendly, clean and it allows users to read comfortably.
+          </p>
+          <p>
+            I have also looked through several professional UX designers’ websites for ideas and style inspiration.
+          </p>
+          <p>
+            Following this, I started translating the initial wireframes layout through HTML, identifying the head, body, header, hero and footer of the pages, as applicable. By placing "div" container throughout these sections, I was able to customize the structure of my website. I added the content to each section, from text, pdf’s to optimized images and made the respective connections between the pages.
+          </p>
+          <p>
+            Then I started using CSS to style the pages, being able to customize how visually I wanted the website to look like. I also used media queries that enable me to create break points on different screen sizes and style my pages using the
+            mobile-first approach. Additionally, I was able to animate an image using keyframes in CSS animation.
+          </p>
+          <p>
+            The learning process of these two languages was challenging, as it required a lot of focus, organization, systematic and logical thinking. The positive aspect was the fact that I could see straightaway the result of my inputs and change
+            it as required. Using HTML and CSS allowed me to understand better how flexible the layout can be and how to translate wireframes through code. Consequently, this completely changed my way of wireframing and prototyping as a designer.
+          </p>
+          <p>
+            However, JavaScript was harder to comprehend and I required more support from my mentor and research. Alongside, I also gained knowledge how to use GitHub, create repositories and define commits.
+          </p>
+          <p>
+            As a result, I finished with a fully functioning responsive website that was ready for user testing.
+          </p>
+          <p>
+            The website prototype was tested on 5 participants with background that range from software developers to UX designers. Overall, all the participants gave a positive feedback to the website, specially the simple, clear and straightforward
+            layout and navigation.
+          </p>
+        </div>
+        <div>
+          <h2 class="center">Solutions</h2>
+          <p>
+            With the feedback of the user testing, iterations were made:
+          </p>
+          <ul>
+            <li>Reduce of the amount of text on the hero section and description of the projects;</li>
+            <li>More images were added in the description of the project;</li>
+            <li>“Go to top” removed from home and about pages;</li>
+            <li>Fixed hover and active color for hamburger menu icon;</li>
+            <li>Fixed the speed of the scroll down;</li>
+            <li>Changed profile picture</li>
+            <li>Adjustments of padding and margins throughout the all website;</li>
+            <li>Rewording of the “Contact” section</li>
+          </ul>
+          <p>
+            Besides to all these adjustments, the website was tested for accessibility guidelines, run through code linters and cross-browser testing to ensure code quality. There were some minor code errors that were easily fixed; as well the background color in the header section was replaced by #308373 to meet the AA accessibility guidelines.
+          </p>
+        </div>
+        <div>
+          <h2 class="center">Results</h2>
+          <p>
+            This website has now been published and is working well across multiple platforms and screen sizes.
+          </p>
+          <p>
+            Future Improvements:
+          </p>
+          <ul>
+            <li>Add of more projects to the “My Work” section;</li>
+            <li>Add of Google Analytics code to measure the engagement on the site</li>
+            <li>Add other features, such as navigation animations.</li>
+          </ul>
+          </div>
+        </div>
+        <a href="#top" class="top"><b>Go to top</b></a>
+      </div>
+  </main>
+  <footer id="contact">
+    <div class="container">
+      <h2 class="center">Get in Touch</h2>
+      <p>
+        Call: <a href="tel:+447531581759"><b>(+44)(0)7531581759</b></a> or Skype: <a href="skype:anaclaragoncalvesdias"><b>anaclaragoncalvesdias</b></a>
+      </p>
+      <p>
+        Prefer sending an email?
+      </p>
+      <div>
+        <a href="mailto:claradias4@hotmail.com" class="button contact">Email me</a>
+      </div>
+      <div>
+        <ul class="icons">
+          <li><a href="https://www.linkedin.com/in/claradias4/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://twitter.com/clara_dias4" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/clara_dias4/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.behance.net/claradias" target="_blank"><i class="fab fa-behance"></i></a></li>
+        </ul>
+        <p class=copyright>
+          Copyright Clara Dias 2019
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
