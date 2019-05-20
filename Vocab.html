@@ -3,17 +3,22 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140480738-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140480738-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-140480738-1', { 'anonymize_ip': true });
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-140480738-1', {
+      'anonymize_ip': true
+    });
+  </script>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Lora:700?7CRoboto:300,400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:700?7CRoboto:300,400,500,700&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>Clara Dias UX Design project - Vocab app</title>
@@ -46,7 +51,7 @@
       </picture>
       <div>
         <div>
-          <h2 class="center">About</h2>
+          <h2 class="left">About</h2>
           <p>
             This was a project I completed as part of the UX Fundamentals course with Career Foundry.
           </p>
@@ -58,110 +63,199 @@
           </p>
         </div>
         <div>
-          <h2 class="center">Competitive Analysis</h2>
+          <h2 class="left">Competitive Analysis</h2>
+          <picture>
+            <source srcset="img/Vocab/competitiveanalysis/competitiveanalysis_600.jpg" media="(max-width:767px)">
+            <img src="img/Vocab/competitiveanalysis/competitiveanalysis_1200.jpg" alt="Competitive Analysis">
+          </picture>
         </div>
-        <div>
-          <h2 class="center">User Personas</h2>
-        </div>
-        <div>
-          <h2 class="center">Information Architecture</h2>
+        <div class="col-md-12 col-lg-12 col-xl-12">
+          <h2 class="left">User Personas</h2>
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-md-6 col-lg-6 col-xl-6">
               <picture>
-                <source srcset="" media="(max-width:767px)">
-                <img src="" alt="Task Analysis 1">
+                <source srcset="img/Vocab/persona/persona_600.jpg" media="(max-width:767px)">
+                <img src="img/Vocab/persona/persona_1200.jpg" alt="Persona">
               </picture>
             </div>
-            <div class="col-lg-6">
-              <picture>
-                <source srcset="" media="(max-width:767px)">
-                <img src="" alt="Task Analysis 2">
-              </picture>
+            <div class="col-md-6 row-lg-6 row-xl-6 Emmet">
+              <p>
+                <b>Emmet F.</b>
+              </p>
+              <p>
+                Male, 27
+              </p>
+              <p>
+                Irish, based in London, UK
+              </p>
+              <p>
+                Single, no children
+              </p>
+              <p>
+                Science Teacher
+              </p>
+              <p>
+                Speaks Irish, English and Spanish (A2)
+              </p>
+            </div>
+            <div class="quote col-md-12 row-lg-6 row-xl-6">
+              <p>
+                "My biggest concern is to be understood and be able to understand others, and to have enough vocabulary to make at least small talk."
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="row">
+              <div class="col-md-6 col-lg-6 col-xl-6">
+                <p>
+                  <b>NEEDS</b> - to be able to communicate effectively with others. Not only to understand the words in context, but also improve his writing, listening and speaking.
+                </p>
+              </div>
+              <div class="col-md-6 col-lg-6 col-xl-6">
+                <p>
+                  <b>GOALS</b> - to live in Spain, so is looking to improve is Spanish to a proficiency level.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-lg-6 col-xl-6">
+                <p>
+                  <b>CHALLENGES</b> - a busy schedule, being always under pressure at work and spending a lot of time in transport. He needs an empowered, time effective and fun tool that allows him to learn and improve his Spanish anytime and
+                  anywhere.
+                </p>
+              </div>
+              <div class="col-md-6 col-lg-6 col-xl-6">
+                <p>
+                  <b>BEHAVIOUR</b> - works in a primary school, being alqays very busy and under pressure at work. Uses public transport to go to work and to the school where is taking A2 Spanish course. Additionally, uses several apps to learn
+                  vocabulary, including “SpanishDict” to receive emails with new words and the context that they can be used. Keeps record of new vocabulary and grammar in a notebook. He is a regular traveler, specially to Spain. Socially very
+                  active.
+                  Avid listener of podcasts.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row statement">
+            <div class="col-md-6 col-lg-6 col-xl-6">
+              <h3><b>Problem Statement</b></h3>
+              <p>
+                Emmet needs a way to hear the correct pronunciation of the words, because he wants to be confident that native people understand him correctly.
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-6">
+              <h3><b>Hyphothesis Statement</b></h3>
+              <p>
+                We believe that by creating a speaking option by a native speaker of a language who articulates the words for Emmet, we will achieve that his communication levels in speaking will increase dramatically.
+              </p>
             </div>
           </div>
         </div>
-        <div>
-          <h2 class="center">Wireframing & Prototyping</h2>
-          <p>
-            The next step was developing low-fidelity wireframes and prototypes so the users could interact with the product and test it.
-          </p>
-          <div class="row">
-            <div>
-              <picture>
-                <source srcset="" media="(max-width:767px)">
-                <img src="" alt="Flow 1">
-              </picture>
-            </div>
-            <div>
-              <picture>
-                <source srcset="" media="(max-width:767px)">
-                <img src="" alt="Flow 2">
-              </picture>
-            </div>
-          </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="left">Information Architecture</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <picture>
+            <source srcset="img/Vocab/flow/task1_600.jpg" media="(max-width:767px)">
+            <img src="img/Vocab/flow/task1_1200.jpg" alt="Task Analysis 1">
+          </picture>
         </div>
-        <div class="col-md-12 usability">
-          <h2 class="center">Usability Testing</h2>
-          <p>
-            Users tested the working prototype and gave feedback on the usefulness and usability of the app and iteratons were made. Additionally identify areas of improvement pain points and how easily the user is able to navigate through the app.
-          </p>
-          <p>
-            I identified a few issues that came up during the tests:
-          </p>
-          <div class="row">
-            <div class="col-md-5 col-lg-6">
-              <picture>
-                <source srcset="" media="(max-width:767px)">
-                <img src="" alt="Problem 1">
-              </picture>
-            </div>
-            <div class="col-md-7 col-lg-6">
-            <h3><b>Specific Problem 1</b>- Card Creation</h3>
+        <div class="col-lg-6">
+          <picture>
+            <source srcset="img/Vocab/flow/task2_600.jpg" media="(max-width:767px)">
+            <img src="img/Vocab/flow/task2_1200.jpg" alt="Task Analysis 2">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="left">Wireframing & Prototyping</h2>
+      <p>
+        The next step was developing low-fidelity wireframes and prototypes so the users could interact with the product and test it.
+      </p>
+      <div class="row">
+        <div>
+          <picture>
+            <source srcset="img/Vocab/lowwireframes/wireframe1_600.jpg" media="(max-width:767px)">
+            <img src="img/Vocab/lowwireframes/wireframe1_1200.jpg" alt="Flow 1">
+          </picture>
+        </div>
+        <div>
+          <picture>
+            <source srcset="img/Vocab/lowwireframes/wireframe2_600.jpg" media="(max-width:767px)">
+            <img src="img/Vocab/lowwireframes/wireframe2_1200.jpg" alt="Flow 2">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 usability">
+      <h2 class="left">Usability Testing</h2>
+      <p>
+        Users tested the working prototype and gave feedback on the usefulness and usability of the app and iteratons were made. Additionally identify areas of improvement pain points and how easily the user is able to navigate through the app.
+      </p>
+      <p>
+        I identified a few issues that came up during the tests:
+      </p>
+      <div>
+        <div>
+          <h3><b>Specific Problem 1</b>- Card Creation</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-lg-6">
+            <picture>
+              <source srcset="img/Vocab/problems/problem1_600.jpg" media="(max-width:767px)">
+              <img src="img/Vocab/problems/problem1_1200.jpg" alt="Problem 1">
+            </picture>
+          </div>
+          <div class="col-md-12 col-lg-6">
             <p>
-              Buttons at the same level cause confusion
+              Buttons at the same level caused confusion
             </p>
             <ul>
               <li>“Save and skip” button is confusing for the users, as a one only button. Additionaly, by being at the same level as the “dictionary” button, this adds doubts to the user about the priority of actions.</li>
               <li>Therefore, i re created the “save” button as a call for action buttom in the bottom of the screen.</li>
             </ul>
           </div>
-            <div class="col-md-5 col-lg-6">
-              <picture>
-                <source srcset="" media="(max-width:767px)">
-                <img src="" alt="Problem 2">
-              </picture>
-            </div>
-          <div class="col-md-7 col-lg-6">
-          <h3><b>Specific Problem 2 </b>- Practice Speaking</h3>
-          <p>
-            Users are confused with the flow
-          </p>
-          <ul>
-            <li>Structure was confusing and not in the right order.</li>
-            <li>So I re-structured the categories by offering word options to be practiced. Additionally, I moved the “Speak” button to the end of screen followed by the “Check” button.</li>
-          </ul>
-        </div>
-        </div>
-      </div>
-      <div>
-          <h2 class="center">Final Design</h2>
-          <div>
-            <h3>Card Creation</h3>
-          <picture>
-            <source srcset="" media="(max-width:767px)">
-            <img src="" alt="Card Creation">
-          </picture>
         </div>
         <div>
-          <h3>Practice Speaking</h3>
-          <picture>
-            <source srcset="" media="(max-width:767px)">
-            <img src="" alt="Practice Speaking">
-          </picture>
+          <div>
+            <h3><b>Specific Problem 2 </b>- Practice Speaking</h3>
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <picture>
+              <source srcset="img/Vocab/problems/problem2_600.jpg" media="(max-width:767px)">
+              <img src="img/Vocab/problems/problem2_1200.jpg" alt="Problem 2">
+            </picture>
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <p>
+              Users are confused with the flow
+            </p>
+            <ul>
+              <li>Structure was confusing and not in the right order.</li>
+              <li>So I re-structured the categories by offering word options to be practiced. Additionally, I moved the “Speak” button to the end of screen followed by the “Check” button.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+    <div>
+      <h2 class="left">Final Design</h2>
+      <div>
+        <h3>Card Creation</h3>
+        <picture>
+          <source srcset="img/Vocab/finaldesigns/finaldesign1_600.jpg" media="(max-width:767px)">
+          <img src="img/Vocab/finaldesigns/finaldesign1_1200.jpg" alt="Card Creation">
+        </picture>
+      </div>
+      <div>
+        <h3>Practice Speaking</h3>
+        <picture>
+          <source srcset="img/Vocab/finaldesigns/finaldesign2_600.jpg" media="(max-width:767px)">
+          <img src="img/Vocab/finaldesigns/finaldesign2_1200.jpg" alt="Practice Speaking">
+        </picture>
+      </div>
+    </div>
   </main>
   <footer id="contact">
     <div class="container">
