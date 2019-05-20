@@ -9,6 +9,7 @@ background color: #D3D8DC;
 */
 
 /* Layout styling */
+
 html {
   scroll-behavior: smooth;
 }
@@ -22,7 +23,7 @@ html {
 }
 
 .row {
-  margin: 25px 0;/* 25px top and bottom, 0 left and right */
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
 .logo {
@@ -72,20 +73,20 @@ main {
   margin: 0 auto;
 }
 
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #fffafa;
 }
 
-nav > ul > li > a:visited {
+nav>ul>li>a:visited {
   color: #000;
 }
 
@@ -259,6 +260,11 @@ a:hover {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+  color: #08548c;
+}
+
 .top {
   text-align: left;
   line-height: 4;
@@ -317,6 +323,31 @@ footer {
   font-size: 14px;
 }
 
+/* VOCAB project */
+.Emmet {
+  margin: auto;
+  display: inline-block;
+  color: #000;
+  padding: 10px 25px;
+  border: 2px solid #006b99;
+  transition: 0.2s opacity;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19);
+}
+
+.quote {
+  font-size: 1.4em;
+  font-weight: 300;
+  color: #006b99;
+}
+
+.statement {
+  background-color: #bae1ff;
+  margin: auto 0;
+  padding: 5px;
+}
+
+/* Layout styling: ANIMATION */
 @keyframes color-change {
   from {
     fill: #edc655;
@@ -373,11 +404,11 @@ Medium devices (640px and larger)
     float: right;
   }
 
-  nav > ul {
+  nav>ul {
     margin: 1em 0;
   }
 
-  nav > ul > li {
+  nav>ul>li {
     display: inline-block;
   }
 
@@ -513,6 +544,14 @@ Medium devices (640px and larger)
     width: 100%;
     display: block;
   }
+
+  .Emmet {
+    margin: 60px 0;
+  }
+
+  .statement {
+    margin: 20px 0;
+  }
 }
 
 /* ==============================
@@ -536,6 +575,10 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
+
+  .Emmet {
+    margin: auto 0;
+  }
 }
 
 /* ==============================
@@ -554,10 +597,6 @@ X-large devices (1440px or larger)
     width: 50%;
   }
 
-  .row-xl-12 {
-    width: 100%;
-  }
-
   .row-xl-6 {
     width: 50%;
   }
@@ -574,6 +613,10 @@ X-large devices (1440px or larger)
 
   .row {
     margin: 25px auto;
+  }
+
+  .Emmet {
+    margin: 80px 0;
   }
 }
 
