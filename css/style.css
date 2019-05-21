@@ -9,7 +9,6 @@ background color: #D3D8DC;
 */
 
 /* Layout styling */
-
 html {
   scroll-behavior: smooth;
 }
@@ -23,7 +22,7 @@ html {
 }
 
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;/* 25px top and bottom, 0 left and right */
 }
 
 .logo {
@@ -73,29 +72,29 @@ main {
   margin: 0 auto;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #fffafa;
 }
 
-nav>ul>li>a:visited {
+nav > ul > li > a:visited {
   color: #000;
 }
 
-nav>ul>li>a:hover {
+nav > ul > li > a:hover {
   color: #00ab84;
   text-decoration: underline;
 }
 
-nav>ul>li>a:active {
+nav > ul > li > a:active {
   color: #000;
 }
 
@@ -170,6 +169,13 @@ h2 {
 h3 {
   font-size: 1.5em;
   font-weight: 400;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 400;
+  color: #006b99;
+  line-height: 1.1em;
 }
 
 img {
@@ -342,9 +348,29 @@ footer {
 }
 
 .statement {
-  background-color: #bae1ff;
-  margin: auto 0;
+  background-color: #fff;
+  margin: 0 0 20px;
   padding: 5px;
+  border: 2px solid #006b99;
+  transition: 0.2s opacity;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19);
+}
+
+.statement h4 {
+  text-decoration: underline;
+}
+
+.task {
+  color: #006b99;
+}
+
+#wireframe img {
+  margin-bottom: 20px;
+}
+
+#problem {
+  margin-bottom: 30px;
 }
 
 /* Layout styling: ANIMATION */
@@ -404,11 +430,11 @@ Medium devices (640px and larger)
     float: right;
   }
 
-  nav>ul {
+  nav > ul {
     margin: 1em 0;
   }
 
-  nav>ul>li {
+  nav > ul > li {
     display: inline-block;
   }
 
@@ -545,12 +571,26 @@ Medium devices (640px and larger)
     display: block;
   }
 
+  /* VOCAB PROJECT */
+  #flow2 img {
+    display: block;
+    margin: 70px auto;
+  }
+
   .Emmet {
     margin: 60px 0;
   }
 
   .statement {
     margin: 20px 0;
+  }
+
+  #wireframe img {
+    margin: 65px 0;
+  }
+
+  #problem {
+    margin-bottom: 40px;
   }
 }
 
@@ -574,6 +614,12 @@ Large devices (1024px or larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  /* VOCAB PROJECT */
+  #flow2 img {
+    display: block;
+    margin: 20px auto;
   }
 
   .Emmet {
@@ -602,7 +648,7 @@ X-large devices (1440px or larger)
   }
 
   .container {
-    max-width: 1440px;
+    max-width: 1700px;
     margin-left: auto;
     margin-right: auto;
   }
