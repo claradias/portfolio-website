@@ -59,7 +59,7 @@ main {
 }
 
 .about {
-  background-color: #fffafa !important;
+  background-color: #fff !important;
 }
 
 #work .row {
@@ -69,7 +69,8 @@ main {
 
 .skills {
   background-color: #c7d8c6;
-  margin: 0 auto;
+  margin: 20px auto;
+  padding: 10px;
 }
 
 nav>ul {
@@ -142,7 +143,7 @@ nav a:active {
 }
 
 body {
-  background-color: #fffafa;
+  background-color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -180,6 +181,12 @@ h4 {
 
 img {
   width: 100%;
+}
+
+#profile img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
 }
 
 a {
@@ -262,10 +269,11 @@ a:hover {
   color: #00785d;
 }
 
-.previous {
+.button.previous {
   background-color: #fff;
-  color: #c7d8c6;
-  float: left;
+  color: #c7d8c6 !important;
+  display: block;
+  text-align: center;
   font-weight: 400;
   padding: 15px 30px;
   border: 2px solid #00785d;
@@ -275,10 +283,11 @@ a:hover {
   margin: 30px 0;
 }
 
-.next {
+.button.next {
   background-color: #fff;
-  color: #c7d8c6;
-  float: right;
+  color: #c7d8c6 !important;
+  display: block;
+  text-align: center;
   font-weight: 400;
   padding: 15px 30px;
   border: 2px solid #00785d;
@@ -290,11 +299,6 @@ a:hover {
 
 .center {
   text-align: center;
-}
-
-.left {
-  text-align: left;
-  color: #08548c;
 }
 
 .top {
@@ -365,6 +369,11 @@ footer {
   transition: 0.2s opacity;
   border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subtitle {
+  text-align: center;
+  color: #08548c;
 }
 
 .quote {
@@ -497,6 +506,14 @@ Medium devices (640px and larger)
     font-size: 18px;
   }
 
+  .button.previous {
+    float: left;
+  }
+
+  .button.next {
+    float: right;
+  }
+
   .skills {
     margin: 30px auto;
   }
@@ -511,7 +528,7 @@ Medium devices (640px and larger)
 
   [class*="col-"] {
     float: left;
-    padding: 0 10px;
+    padding: 0 20px;
   }
 
   .row {
@@ -545,7 +562,7 @@ Medium devices (640px and larger)
   }
 
   #profile img {
-    width: 60%;
+    width: 50%;
     display: block;
     margin: 25px auto;
   }
@@ -625,7 +642,7 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
   body {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .col-lg-6 {
@@ -637,7 +654,7 @@ Large devices (1024px or larger)
   }
 
   .container {
-    max-width: 1200px;
+    max-width: 850px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -658,7 +675,7 @@ X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
   body {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .col-xl-12 {
@@ -673,17 +690,31 @@ X-large devices (1440px or larger)
     width: 50%;
   }
 
+  [class*="col-"] {
+    float: left;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+  p,
+  li {
+    max-width: 800px;
+    margin: 16px auto;
+  }
+
   .container {
-    max-width: 1700px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .skills {
-    margin: 0 auto;
+  .row {
+    margin: 25px auto;
   }
 
-  .row {
+  #profile img {
+    width: 50%;
+    display: block;
     margin: 25px auto;
   }
 
