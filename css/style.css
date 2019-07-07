@@ -27,7 +27,7 @@ html {
 
 .logo {
   color: #fffafa !important;
-  font-family: 'Lora', serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 22px;
   line-height: 2;
   max-width: 250px;
@@ -50,11 +50,13 @@ main {
 }
 
 #hero {
-  background-color: #379683;
+  background-color: #fffafa;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
   text-align: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
 }
 
 .about {
@@ -182,12 +184,6 @@ img {
   width: 100%;
 }
 
-#profile img {
-  width: 70%;
-  display: block;
-  margin: 0 auto;
-}
-
 a {
   color: #000;
   text-decoration: none;
@@ -224,29 +220,6 @@ a:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.button.about {
-  display: inline-block;
-  background-color: #fff;
-  color: #00785d !important;
-  font-weight: 400;
-  padding: 15px 30px;
-  border-bottom: 2px solid #00785d;
-  transition: 0.2s opacity;
-  border-radius: 12px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19);
-}
-
-.button.about:hover {
-  color: #00ab84;
-  opacity: 0.8;
-  text-decoration: none;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-.button.about:active {
-  color: #00785d;
-}
-
 .button.contact {
   background-color: #fff;
   color: #00785d !important;
@@ -270,7 +243,7 @@ a:hover {
 
 .button.previous {
   background-color: #fff;
-  color: #c7d8c6 !important;
+  color: #00785d !important;
   display: block;
   text-align: center;
   font-weight: 400;
@@ -284,7 +257,7 @@ a:hover {
 
 .button.next {
   background-color: #fff;
-  color: #c7d8c6 !important;
+  color: #00785d !important;
   display: block;
   text-align: center;
   font-weight: 400;
@@ -324,7 +297,7 @@ footer {
   font-size: 1.6em;
   align-content: center;
   margin: 0;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .icons ul {
@@ -339,7 +312,7 @@ footer {
 }
 
 .icons ul>.icons li>.icons a {
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 .icons a {
@@ -560,12 +533,6 @@ Medium devices (640px and larger)
     margin: 27px auto;
   }
 
-  #profile img {
-    width: 50%;
-    display: block;
-    margin: 25px auto;
-  }
-
   #interviews img {
     width: 100%;
     display: block;
@@ -708,12 +675,6 @@ X-large devices (1440px or larger)
   }
 
   .row {
-    margin: 25px auto;
-  }
-
-  #profile img {
-    width: 50%;
-    display: block;
     margin: 25px auto;
   }
 
