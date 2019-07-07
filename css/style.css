@@ -46,21 +46,23 @@ header {
 }
 
 main {
-  padding-top: 56px;
+  padding-top: 46px;
 }
 
 #hero {
-  background-color: #fffafa;
-  padding: 20px 0;
+  background-color: #379683;
   display: inline-block;
   width: 100%;
-  text-align: center;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #000;
+  text-align: left;
+  padding: 40px 30px 40px 15px;
+  border-bottom: 1px solid #379683;
+  color: #fffafa;
+  line-height: 3;
 }
 
 .about {
   background-color: #fff !important;
+  color: #000;
 }
 
 #work .row {
@@ -128,7 +130,7 @@ nav a:active {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 14px;
+  top: 5px;
   font-size: 20px;
   padding-right: 0;
 }
@@ -294,7 +296,7 @@ footer {
 
 .icons {
   width: 100%;
-  font-size: 1.6em;
+  font-size: 1.2em;
   align-content: center;
   margin: 0;
   padding: 10px 0;
@@ -308,11 +310,10 @@ footer {
 .icons li {
   display: inline-block;
   padding: 5px;
-  margin: 5px;
 }
 
 .icons ul>.icons li>.icons a {
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .icons a {
@@ -329,6 +330,7 @@ footer {
 
 .copyright {
   font-size: 14px;
+  margin: 0 0 10px;
 }
 
 /* VOCAB project */
@@ -429,7 +431,8 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding: 5px 0;
+    line-height: 0.45;
   }
 
   nav {
@@ -470,8 +473,12 @@ Medium devices (640px and larger)
     display: block;
   }
 
+  #hero {
+    padding: 40px 170px 40px 15px;
+  }
+
   main {
-    padding-top: 99px;
+    padding-top: 56px;
   }
 
   body {
@@ -607,6 +614,18 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  header {
+    line-height: 0;
+  }
+
+  #hero main {
+    padding-top: 78px;
+  }
+
+  #hero {
+    padding: 40px 350px 40px 100px;
+  }
+
   body {
     font-size: 20px;
   }
@@ -640,6 +659,10 @@ Large devices (1024px or larger)
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+  nav>ul {
+    margin: 0.2em 0;
+  }
+
   body {
     font-size: 20px;
   }
