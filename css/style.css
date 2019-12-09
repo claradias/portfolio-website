@@ -59,6 +59,11 @@ main {
   padding: 20px 10px;
   margin: 0 auto;
   text-align: center;
+  width: 100%;
+}
+
+.hig100 {
+  height: 370px !important;
 }
 
 .skills {
@@ -175,7 +180,6 @@ h4 {
 
 img {
   width: 100%;
-  height: 400px;
 }
 
 a {
@@ -262,7 +266,7 @@ a:hover {
 
 .berlin-illustration {
   width: 100%;
-  height: 400px;
+  height: 260px;
 }
 
 footer {
