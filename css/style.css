@@ -66,6 +66,11 @@ main {
   height: 370px !important;
 }
 
+.hig10 {
+  height: 620px !important;
+  margin-top: 20px;
+}
+
 .skills {
   background-color: #c7d8c6;
   margin: 20px auto;
