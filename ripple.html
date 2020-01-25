@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140480738-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-140480738-1', {
+      'anonymize_ip': true
+    });
+  </script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:700?7CRoboto:300,400,500,700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Clara Dias UX Design project - Vocab app</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+        <div>
+          <a href="index.html" class="logo">- CLARA DIAS -</a>
+        </div>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main id="top">
+    <div class="container" id="backpicture">
+      <picture>
+        <source srcset="img/Vocab/IntroScreen/introscreen_600.jpg" media="(max-width:767px)">
+        <img src="img/Vocab/IntroScreen/introscreen_1200.jpg" alt="Intro screen">
+      </picture>
+      <div>
+        <div>
+          <h2 class="subtitle">About</h2>
+          <p>
+            This was a project I completed as part of the UX Fundamentals course with Career Foundry.
+          </p>
+          <p>
+            My role was to research, design and test all UX related to the project.
+          </p>
+          <p>
+            Vocab is a new app to improve languages skills and can be used to study vocabulary and improve speaking skills anytime and anywhere.
+          </p>
+        </div>
+        <div>
+          <h2 class="subtitle">Competitive Analysis</h2>
+          <picture>
+            <source srcset="img/Vocab/competitiveanalysis/competitiveanalysis_600.jpg" media="(max-width:767px)">
+            <img src="img/Vocab/competitiveanalysis/competitiveanalysis_1200.jpg" alt="Competitive Analysis">
+          </picture>
+        </div>
+        <div class="col-md-12 col-lg-12 col-xl-12">
+          <h2 class="subtitle">User Personas</h2>
+          <div class="row">
+            <div class="col-md-6 col-lg-6 col-xl-6">
+              <picture>
+                <source srcset="img/Vocab/persona/persona_600.jpg" media="(max-width:767px)">
+                <img src="img/Vocab/persona/persona_1200.jpg" alt="Persona">
+              </picture>
+            </div>
+            <div class="col-md-6 row-lg-6 row-xl-6 Emmet">
+              <p>
+                <b>Emmet F.</b>
+              </p>
+              <p>
+                Male, 27
+              </p>
+              <p>
+                Irish, based in London, UK
+              </p>
+              <p>
+                Single, no children
+              </p>
+              <p>
+                Science Teacher
+              </p>
+              <p>
+                Speaks Irish, English and Spanish (A2)
+              </p>
+            </div>
+            <div class="quote col-md-12 row-lg-6 row-xl-6">
+              <p>
+                "My biggest concern is to be understood and be able to understand others, and to have enough vocabulary to make at least small talk."
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="row">
+              <div class="col-md-6 col-lg-6 col-xl-6">
+                <h4><b>NEEDS</b></h4> to be able to communicate effectively with others. Not only to understand the words in context, but also improve his writing, listening and speaking.
+              </div>
+              <div class="col-md-6 col-lg-6 col-xl-6">
+                <h4><b>GOALS</b></h4> to live in Spain, so is looking to improve is Spanish to a proficiency level.
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-lg-6 col-xl-6">
+                <h4><b>CHALLENGES</b></h4> a busy schedule, being always under pressure at work and spending a lot of time in transport. He needs an empowered, time effective and fun tool that allows him to learn and improve his Spanish anytime and
+                anywhere.
+              </div>
+              <div class="col-md-6 col-lg-6 col-xl-6">
+                <h4><b>BEHAVIOUR</b></h4> works in a primary school, being alqays very busy and under pressure at work. Uses public transport to go to work and to the school where is taking A2 Spanish course. Additionally, uses several apps to learn
+                vocabulary, including “SpanishDict” to receive emails with new words and the context that they can be used. Keeps record of new vocabulary and grammar in a notebook. He is a regular traveler, specially to Spain. Socially very active.
+                Avid listener of podcasts.
+              </div>
+            </div>
+          </div>
+          <div class="row statement">
+            <div class="col-md-6 col-lg-6 col-xl-6">
+              <h4>PROBLEM STATEMENT</h4>
+              <p>
+                Emmet needs a way to hear the correct pronunciation of the words, because he wants to be confident that native people understand him correctly.
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-6">
+              <h4>HYPHOTHESIS STATEMENT</h4>
+              <p>
+                We believe that by creating a speaking option by a native speaker of a language who articulates the words for Emmet, we will achieve that his communication levels in speaking will increase dramatically.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-12 col-xl-12">
+          <h2 class="subtitle">Information Architecture</h2>
+          <div class="row">
+            <h3><b>Task Analysis 1</b> - Card Creation</h3>
+            <div class="col-md-6 row-lg-6 row-xl-6">
+              <p>
+                <b class="task">Entry point</b>: Menu
+              </p>
+              <p>
+                <b class="task">Success Criteria</b>: Create a customized word card
+              </p>
+              <ol>
+                <li>Click on Create New Card button</li>
+                <li>Write card name</li>
+                <li>Write word</li>
+                <li>Write definition</li>
+                <li>Check dictionary</li>
+                <li>Add definition</li>
+                <li>Write context example</li>
+                <li>Click on Move to Category</li>
+                <li>Choose Category</li>
+                <li>Save</li>
+              </ol>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-6">
+              <picture>
+                <source srcset="img/Vocab/flow/task1_600.jpg" media="(max-width:767px)">
+                <img src="img/Vocab/flow/task1_1200.jpg" alt="Task Analysis 1">
+              </picture>
+            </div>
+          </div>
+          <div class="row">
+            <h3><b>Task Analysis 2</b> - Practice Speaking</h3>
+            <div class="col-md-6 row-lg-6 row-xl-6">
+              <p>
+                <b class="task">Entry point</b>: Menu
+              </p>
+              <p>
+                <b class="task">Success Criteria</b>: Complete a speaking session
+              </p>
+              <ol>
+                <li>Click on Speaking button</li>
+                <li>Write word/phrase</li>
+                <li>Click Check Spelling</li>
+                <li>Click Audio button</li>
+                <li>Listen pronunciation by native speaker</li>
+                <li>Click Micro button</li>
+                <li>Voice the word/phrase</li>
+                <li>Check feedback on pronunciation and errors</li>
+                <li>Click Repeat</li>
+                <li>Save</li>
+              </ol>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-6" id="flow2">
+              <picture>
+                <source srcset="img/Vocab/flow/task2_600.jpg" media="(max-width:767px)">
+                <img src="img/Vocab/flow/task2_1200.jpg" alt="Task Analysis 2">
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2 class="subtitle">Wireframing & Prototyping</h2>
+          <p>
+            The next step was developing low-fidelity wireframes and prototypes so the users could interact with the product and test it.
+          </p>
+          <div class="row">
+            <div>
+              <picture id="wireframe">
+                <source srcset="img/Vocab/lowwireframes/wireframe1_600.jpg" media="(max-width:767px)">
+                <img src="img/Vocab/lowwireframes/wireframe1_1200.jpg" alt="Flow 1">
+              </picture>
+            </div>
+            <div>
+              <picture>
+                <source srcset="img/Vocab/lowwireframes/wireframe2_600.jpg" media="(max-width:767px)">
+                <img src="img/Vocab/lowwireframes/wireframe2_1200.jpg" alt="Flow 2">
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 usability">
+          <h2 class="subtitle">Usability Testing</h2>
+          <p>
+            Users tested the working prototype and gave feedback on the usefulness and usability of the app and iteratons were made. Additionally identify areas of improvement pain points and how easily the user is able to navigate through the app.
+          </p>
+          <p>
+            I identified a few issues that came up during the tests:
+          </p>
+          <div>
+            <div>
+              <h3><b>Specific Problem 1</b>- Card Creation</h3>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-lg-6">
+                <picture>
+                  <source srcset="img/Vocab/problems/problem1_600.jpg" media="(max-width:767px)">
+                  <img src="img/Vocab/problems/problem1_1200.jpg" alt="Problem 1">
+                </picture>
+              </div>
+              <div class="col-md-12 col-lg-6">
+                <h4>Buttons at the same level caused confusion</h4>
+                <ul>
+                  <li>“Save and skip” button is confusing for the users, as a one only button. Additionaly, by being at the same level as the “dictionary” button, this adds doubts to the user about the priority of actions.</li>
+                  <li>Therefore, i re created the “save” button as a call for action buttom in the bottom of the screen.</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h3><b>Specific Problem 2 </b>- Practice Speaking</h3>
+              </div>
+              <div class="row" id="problem">
+                <div class="col-md-12 col-lg-6">
+                  <picture>
+                    <source srcset="img/Vocab/problems/problem2_600.jpg" media="(max-width:767px)">
+                    <img src="img/Vocab/problems/problem2_1200.jpg" alt="Problem 2">
+                  </picture>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                  <h4>Users are confused with the flow</h4>
+                  <ul>
+                    <li>Structure was confusing and not in the right order.</li>
+                    <li>So I re-structured the categories by offering word options to be practiced. Additionally, I moved the “Speak” button to the end of screen followed by the “Check” button.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2 class="subtitle">Final Design</h2>
+          <div>
+            <h3>Card Creation</h3>
+            <picture>
+              <source srcset="img/Vocab/finaldesigns/finaldesign1_600.jpg" media="(max-width:767px)">
+              <img src="img/Vocab/finaldesigns/finaldesign1_1200.jpg" alt="Card Creation">
+            </picture>
+          </div>
+          <div>
+            <h3>Practice Speaking</h3>
+            <picture>
+              <source srcset="img/Vocab/finaldesigns/finaldesign2_600.jpg" media="(max-width:767px)">
+              <img src="img/Vocab/finaldesigns/finaldesign2_1200.jpg" alt="Practice Speaking">
+            </picture>
+          </div>
+        </div>
+      </div>
+      <a href="Ink-Tank.html" class="button previous">View previous project</a>
+      <a href="Portfoliowebsite.html" class="button next">View next project</a>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <h3 class="center">Get in Touch</h3>
+      <div>
+        <a href="mailto:claradias.ux@gmail.com" class="button contact">Email me</a>
+      </div>
+      <div>
+        <ul class="icons">
+          <li><a href="https://www.linkedin.com/in/claradias4/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://www.behance.net/claradias" target="_blank"><i class="fab fa-behance"></i></a></li>
+        </ul>
+        <p class=copyright>
+          Copyright Clara Dias 2020
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
