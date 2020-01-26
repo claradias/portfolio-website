@@ -370,6 +370,22 @@ footer {
   margin-bottom: 30px;
 }
 
+/* Ripple project */
+h5 {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #6b3279;
+  margin: 18px 0;
+}
+
+h6 {
+  text-align: center;
+  font-size: 0.5em;
+  font-weight: 100;
+  line-height: 1.1em;
+  margin-bottom: 10px;
+}
+
 /* Layout styling: ANIMATION */
 @keyframes color-change {
   from {
@@ -483,6 +499,16 @@ Medium devices (640px and larger)
 
   .skills {
     margin: 30px auto;
+  }
+
+  .col-st-4 {
+    width: 20%;
+    margin: 0;
+  }
+
+  .col-st-8 {
+    width: 80%;
+    margin: 0;
   }
 
   .col-md-6 {
