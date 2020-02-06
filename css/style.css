@@ -386,6 +386,21 @@ h6 {
   margin-bottom: 10px;
 }
 
+/* Community */
+#community p {
+  background-color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #000;
+}
+
+#community .row {
+  border-bottom: 1px solid #4a4a4a;
+  padding: 25px 0;
+}
+
 /* Layout styling: ANIMATION */
 @keyframes color-change {
   from {
