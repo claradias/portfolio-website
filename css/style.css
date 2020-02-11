@@ -55,12 +55,6 @@ main {
   color: #000;
 }
 
-#work .row {
-  margin: 0 auto;
-  text-align: left;
-  width: 100%;
-}
-
 #work p {
   margin: 0 0 20px;
 }
@@ -279,9 +273,10 @@ a:hover {
 }
 
 .berlin-illustration {
-  width: 100%;
+  width: auto;
   height: 400px;
   margin: 27px 0 0;
+  display: block;
 }
 
 footer {
@@ -578,29 +573,11 @@ Medium devices (640px and larger)
     margin: 27px auto;
   }
 
-  #interviews img {
-    width: 100%;
-    display: block;
-    margin: 27px auto;
-  }
-
   #personas img {
     width: 100%;
     display: block;
     margin: 0 auto;
     padding: 10px 0;
-  }
-
-  #journeys img {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    padding: 10px 0;
-  }
-
-  #sitemap img {
-    width: 100%;
-    display: block;
   }
 
   #wireframes img {
