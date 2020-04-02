@@ -1,0 +1,800 @@
+/* Layout styling */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
+}
+
+.logo {
+  color: #00785d !important;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  line-height: 1.8;
+  max-width: 250px;
+  align-content: center;
+  text-decoration: none !important;
+}
+
+header {
+  background-color: #fff;
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+main {
+  padding-top: 46px;
+}
+
+#hero {
+  background-color: #fff;
+  text-align: left;
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  align-items: center;
+  display: inline-flex;
+  font-size: 16px;
+}
+
+.roles {
+  line-height: 1em;
+  font-size: 14px;
+}
+
+.about {
+  background-color: #fff;
+  color: #000;
+}
+
+.title_abilities {
+  margin: 50px 0 10px;
+}
+
+#work p {
+  margin: 0 auto;
+}
+
+#work img {
+  margin-bottom: 0 !important;
+}
+
+.projects {
+  margin: 0 0 20px;
+  position: relative;
+}
+
+.projects img:hover {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  height: 10%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s opacity;
+  background-color: #fff;
+  z-index: -1;
+}
+
+.projects:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #00785d;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2 !important;
+}
+
+.hig10 {
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.skills {
+  margin: 20px auto;
+  padding: 10px 15px 40px;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 0.7em;
+}
+
+.abilities {
+  color: #00785d;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav>ul>li>a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+nav a {
+  color: #000 !important;
+}
+
+nav a:hover {
+  color: #00ab84 !important;
+  text-decoration: underline;
+}
+
+nav>ul>li>a:active :visited {
+  color: #00785d !important;
+  text-decoration: underline;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle,
+.navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle.responsive nav {
+  padding: 20px 0 0;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(0, 120, 0, 93);
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #000;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.7em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 400;
+  color: #006b99;
+  line-height: 1em;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #00785d;
+  text-decoration: none;
+  transition: 0.4s opacity;
+}
+
+a:visited,
+a:active {
+  color: #00ab84;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.button {
+  display: inline-block;
+  color: #00785d !important;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.button:hover {
+  color: #00ab84;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.button.previous {
+  background-color: #fff;
+  color: #00785d !important;
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  padding: 15px 30px;
+  border: 2px solid #00785d;
+  transition: 0.2s;
+  border-radius: 12px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0);
+  margin: 30px 0;
+  text-decoration: none;
+}
+
+.button.next {
+  background-color: #fff;
+  color: #00785d !important;
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  padding: 15px 30px;
+  border: 2px solid #00785d;
+  transition: 0.2s;
+  border-radius: 12px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0);
+  margin: 30px 0;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.top {
+  text-align: left;
+  line-height: 4;
+}
+
+.ink {
+  color: #ff8000;
+}
+
+.berlin-illustration {
+  margin: 27px 0 0;
+  display: block;
+  height: 100%;
+}
+
+.css {
+  margin-top: 20px !important;
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #00785d;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.icons {
+  width: 100%;
+  font-size: 1.2em;
+  align-content: center;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.icons ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.icons li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.icons ul>.icons li>.icons a {
+  padding: 0 5px;
+}
+
+.icons a {
+  color: #fff;
+}
+
+.icons a:hover {
+  color: #000;
+}
+
+.copyright {
+  font-size: 10px;
+  margin: 0 0 10px;
+  color: #fff;
+  align-items: center;
+}
+
+/* VOCAB project */
+.Emmet {
+  margin: auto;
+  display: inline-block;
+  color: #000;
+  padding: 10px 25px;
+  border: 2px solid #006b99;
+  transition: 0.2s opacity;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subtitle {
+  color: #08548c;
+}
+
+.quote {
+  font-size: 1.4em;
+  font-weight: 300;
+  color: #006b99;
+}
+
+.statement {
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 5px;
+  border: 2px solid #006b99;
+  transition: 0.2s opacity;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19);
+}
+
+.statement h4 {
+  text-decoration: underline;
+}
+
+.task {
+  color: #006b99;
+}
+
+#wireframe img {
+  margin-bottom: 20px;
+}
+
+#problem {
+  margin-bottom: 30px;
+}
+
+/* Ripple project */
+h5 {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #6b3279;
+  margin: 18px 0;
+}
+
+h6 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.1em;
+  margin: 10px auto;
+  color: #9E9E9E;
+}
+
+.h1 {
+  color: #6b3279;
+}
+
+/* Community */
+#community p {
+  background-color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #000;
+}
+
+#community .row {
+  border-bottom: 1px solid #4a4a4a;
+  padding: 25px 0;
+}
+
+#community img {
+  height: 500px;
+  width: auto;
+}
+
+.community a {
+  font-size: 14px;
+}
+
+/* Layout styling: ANIMATION */
+@keyframes color-change {
+  from {
+    fill: #edc655;
+  }
+
+  to {
+    fill: #f76414;
+  }
+}
+
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
+}
+
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 5px 0;
+    line-height: 0.45;
+  }
+
+  #hero {
+    font-size: 18px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+  }
+
+  nav>ul {
+    margin: 1em 0;
+  }
+
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  .navtoggle.responsive nav {
+    padding: 0;
+  }
+
+  .navtoggle.responsive li {
+    padding: 0;
+    border-top: none;
+  }
+
+  .logo {
+    float: left;
+  }
+
+  main {
+    padding-top: 56px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  .button.previous {
+    float: left;
+  }
+
+  .button.next {
+    float: right;
+  }
+
+  .skills {
+    margin: 30px auto;
+  }
+
+  .col-st-4 {
+    width: 20%;
+    margin: 0;
+  }
+
+  .col-md-4 {
+    width: 30%;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .col-st-8 {
+    width: 80%;
+    margin: 0;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 0 20px;
+  }
+
+  .row {
+    margin: 0 auto;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #about-page h3 {
+    margin-top: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #backpicture img {
+    width: 100%;
+    display: block;
+    margin: 27px auto;
+  }
+
+  .berlin-illustration {
+    height: 400px;
+  }
+
+  #work img {
+    width: 100%;
+    display: block;
+    margin: 27px auto;
+  }
+
+  #personas img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  #wireframes img {
+    width: 100%;
+    display: block;
+  }
+
+  #wireframes p {
+    text-align: left;
+  }
+
+  #testing img {
+    width: 100%;
+    display: block;
+    margin: 27px auto;
+  }
+
+  #problems img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #design img {
+    width: 100%;
+    display: block;
+  }
+
+  /* VOCAB PROJECT */
+  #flow2 img {
+    display: block;
+    margin: 70px auto;
+  }
+
+  .Emmet {
+    margin: 60px 0;
+  }
+
+  .statement {
+    margin: 40px 0 20px;
+  }
+
+  #wireframe img {
+    margin: 65px 0;
+  }
+
+  #problem {
+    margin-bottom: 40px;
+  }
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  header {
+    line-height: 0;
+  }
+
+  body {
+    font-size: 20px;
+  }
+
+  #hero {
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  .container {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* VOCAB PROJECT */
+  #flow2 img {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .Emmet {
+    margin: auto 0;
+  }
+
+  .statement {
+    margin: 40px 0 20px;
+  }
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+  nav>ul {
+    margin: 0.2em 0;
+  }
+
+  body {
+    font-size: 20px;
+  }
+
+  .container {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-xl-12 {
+    width: 100%;
+  }
+
+  .col-xl-6 {
+    width: 50%;
+  }
+
+  .row-xl-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+  p,
+  li {
+    max-width: 800px;
+    margin: 16px auto;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .row {
+    margin: 2px auto;
+  }
+
+  .Emmet {
+    margin: 80px 0;
+  }
+
+  .statement {
+    margin: 40px 0 20px;
+  }
+}
+
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {}
