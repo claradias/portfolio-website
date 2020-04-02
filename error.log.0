@@ -1,0 +1,1 @@
+[Wed Apr 01 15:34:06.388240 2020] [:error] [pid 29039] [client 76.126.50.66:64603] [client 76.126.50.66] ModSecurity: Multipart parsing error: Multipart: Invalid Content-Disposition header (-11): form-data; name="filename"; Filename="data.php". [hostname "claradias.com"] [uri "/wp-content/plugins/apikey/apikey.php"] [unique_id "XoUW3rXLGafPRQtRyBPOGAAAAAI"]
