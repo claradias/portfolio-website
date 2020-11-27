@@ -122,12 +122,20 @@ main {
   margin-bottom: 0;
 }
 
+.aboutme {
+  margin: 20px auto;
+  padding: 10px 15px 40px;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 0.7em;
+}
+
 .skills {
   margin: 20px auto;
   padding: 10px 15px 40px;
   font-size: 0.9em;
   font-weight: 400;
-  line-height: 1.5px;
+  line-height: 0.7em;
 }
 
 .abilities {
