@@ -28,7 +28,7 @@ html {
 
 header {
   background-color: #fff;
-  margin: 0 auto;
+  margin-top: 10px;
   position: fixed;
   width: 100%;
   z-index: 9999;
