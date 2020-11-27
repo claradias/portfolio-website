@@ -54,11 +54,6 @@ main {
   font-size: 14px;
 }
 
-.about {
-  background-color: #fff;
-  color: #000;
-}
-
 #work p {
   margin: 0 auto;
 }
@@ -375,11 +370,11 @@ footer {
 }
 
 .icons a {
-  color: #fff;
+  color: #00785d;
 }
 
 .icons a:hover {
-  color: #000;
+  color: #00ab84;
 }
 
 /* VOCAB project */
