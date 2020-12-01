@@ -731,6 +731,11 @@ Large devices (1024px or larger)
     display: flex;
   }
 
+  #aboutme {
+    align-items: center;
+    display: flex;
+  }
+
   .col-lg-6 {
     width: 50%;
   }
