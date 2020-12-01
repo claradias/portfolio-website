@@ -115,6 +115,7 @@ main {
 }
 
 #aboutme {
+  padding: 20px 0;
   font-weight: 400;
   line-height: 1.2em;
   background-color: #fff;
@@ -537,6 +538,11 @@ Medium devices (640px and larger)
 
   #hero {
     font-size: 18px;
+  }
+
+  #aboutme [class*="col-"] {
+      float: left;
+      padding: 0 10px 10px 0;
   }
 
   nav {
