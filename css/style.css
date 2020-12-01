@@ -541,8 +541,8 @@ Medium devices (640px and larger)
   }
 
   #aboutme [class*="col-"] {
-      float: left;
-      padding: 0 10px 10px 0;
+    float: left;
+    padding-left: 0;
   }
 
   nav {
