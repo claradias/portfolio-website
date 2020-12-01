@@ -48,6 +48,7 @@ main {
   align-items: center;
   display: inline-flex;
   font-size: 16px;
+  margin-top: 20px;
 }
 
 .roles {
