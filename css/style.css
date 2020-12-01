@@ -44,7 +44,7 @@ main {
   text-align: left;
   position: relative;
   width: 100%;
-  height: 20vh;
+  height: 30vh;
   align-items: center;
   display: inline-flex;
   font-size: 16px;
@@ -543,6 +543,7 @@ Medium devices (640px and larger)
   #aboutme [class*="col-"] {
     float: left;
     padding-left: 0;
+    margin: 0;
   }
 
   nav {
@@ -739,6 +740,7 @@ Large devices (1024px or larger)
   #aboutme {
     align-items: center;
     display: flex;
+    margin: 0;
   }
 
   .col-lg-6 {
