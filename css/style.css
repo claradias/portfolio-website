@@ -70,46 +70,6 @@ main {
   position: relative;
 }
 
-.projects img:hover {
-  filter: blur(5px);
-  -webkit-transition: 3s opacity;
-  z-index: -1;
-  opacity: 0.5;
-}
-
-.overlay {
-  position: absolute;
-  top: 50%;
-  bottom: 50%;
-  left: 0;
-  right: 0;
-  height: 10%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s opacity;
-  background-color: #fff;
-  z-index: -1;
-}
-
-.projects:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: #00785d;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: underline;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: 2 !important;
-}
-
 .hig10 {
   margin-top: 20px;
   width: 100%;
