@@ -491,12 +491,12 @@ Medium devices (640px and larger)
   #aboutme [class*="col-"] {
     float: left;
     padding-left: 0;
-    padding-right: 10px;
+    padding-right: 15px;
   }
 
   #work [class*="col-"] {
     padding-left: 0;
-    padding-right: 10px;
+    padding-right: 15px;
   }
 
   nav {
