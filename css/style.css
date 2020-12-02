@@ -72,13 +72,15 @@ main {
 
 .projects img:hover {
   filter: blur(5px);
-  -webkit-filter: blur(5px);
+  -webkit-transition: 3s opacity;
   z-index: -1;
   opacity: 0.5;
 }
 
 .overlay {
   position: absolute;
+  top: 50%;
+  bottom: 50%;
   left: 0;
   right: 0;
   height: 10%;
