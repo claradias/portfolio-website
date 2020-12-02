@@ -493,6 +493,10 @@ Medium devices (640px and larger)
     padding-right: 10px;
   }
 
+  #work [class*="col-"] {
+    padding: 0 10px;
+  }
+
   nav {
     width: auto;
     float: right;
