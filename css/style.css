@@ -91,6 +91,10 @@ main {
   z-index: -1;
 }
 
+.projects:hover .overlay {
+  opacity: 1;
+}
+
 .text {
   color: #00785d;
   font-size: 20px;
