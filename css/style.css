@@ -495,7 +495,8 @@ Medium devices (640px and larger)
   }
 
   #work [class*="col-"] {
-    padding: 0 10px;
+    padding-left: 0;
+    padding-right: 10px;
   }
 
   nav {
