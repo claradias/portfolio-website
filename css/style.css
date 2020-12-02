@@ -29,7 +29,7 @@ html {
 
 header {
   background-color: #fff;
-  margin-top: 10px;
+  margin: 0 auto;
   position: fixed;
   width: 100%;
   z-index: 9999;
