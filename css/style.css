@@ -51,7 +51,6 @@ main {
 }
 
 .roles {
-  line-height: 1em;
   font-size: 14px;
 }
 
@@ -63,12 +62,6 @@ main {
   margin-bottom: 0 !important;
   width: 100%;
   position: relative;
-}
-
-.hig10 {
-  margin-top: 20px;
-  width: 100%;
-  margin-bottom: 0;
 }
 
 #aboutme {
@@ -83,10 +76,6 @@ main {
   display: inline-flex;
   font-size: 17px;
   margin-top: auto !important;
-}
-
-.abilities {
-  color: #00785d;
 }
 
 nav>ul {
