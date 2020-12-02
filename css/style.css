@@ -79,8 +79,6 @@ main {
 
 .overlay {
   position: absolute;
-  top: 50%;
-  bottom: 50%;
   left: 0;
   right: 0;
   height: 10%;
