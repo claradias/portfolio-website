@@ -60,6 +60,7 @@ main {
 
 #work img {
   margin-bottom: 0 !important;
+  margin-top: 25px;
   width: 100%;
   position: relative;
 }
