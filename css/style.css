@@ -244,12 +244,11 @@ a:hover {
   color: #00785d !important;
   text-align: center;
   font-weight: 400;
-  padding: 5px 10px;
+  padding: 10px 20px;
   border: 2px solid #00785d;
   transition: 0.2s;
   border-radius: 12px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0);
-  margin: 5px 0;
   text-decoration: none;
 }
 
