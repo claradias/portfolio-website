@@ -296,16 +296,8 @@ footer {
 
 #contact p {
   font-size: 16px;
-  margin-top: 10px;
-  margin-bottom: 0;
+  margin: 10px;
   color: #000;
-  align-items: center;
-}
-
-.copyright {
-  font-size: 12px !important;
-  margin: 10px !important;
-  color: #00785d;
   align-items: center;
 }
 
