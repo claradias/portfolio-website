@@ -55,7 +55,8 @@ main {
 }
 
 #work {
-  background-color: #999;
+  background-color: #222;
+  margin: 20px 0;
 }
 
 #work p {
