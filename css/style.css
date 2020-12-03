@@ -17,7 +17,7 @@ html {
 }
 
 .logo {
-  color: #00785d !important;
+  color: #fff !important;
   font-family: 'Nunito', sans-serif;
   font-size: 22px;
   font-weight: bold;
@@ -28,7 +28,7 @@ html {
 }
 
 header {
-  background-color: #fff;
+  background-color: #00785d;
   margin: 0 auto;
   position: fixed;
   width: 100%;
@@ -63,6 +63,7 @@ main {
   margin-top: 25px;
   width: 100%;
   position: relative;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19)
 }
 
 #aboutme {
@@ -90,11 +91,11 @@ nav>ul>li>a {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 16px;
-  color: #000;
+  color: #fff;
 }
 
 nav a {
-  color: #000 !important;
+  color: #fff !important;
 }
 
 nav a:hover {
@@ -244,7 +245,7 @@ a:hover {
   color: #00785d !important;
   text-align: center;
   font-weight: 400;
-  padding: 10px 20px;
+  padding: 20px;
   border: 2px solid #00785d;
   transition: 0.2s;
   border-radius: 12px;
