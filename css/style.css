@@ -54,6 +54,10 @@ main {
   font-size: 14px;
 }
 
+#work {
+  background-color: #999;
+}
+
 #work p {
   margin-top: 10px;
   margin-bottom: 0;
