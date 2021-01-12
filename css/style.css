@@ -16,17 +16,6 @@ html {
   /* 25px top and bottom, 0 left and right */
 }
 
-.logo {
-  color: #00785d !important;
-  font-family: 'Nunito', sans-serif;
-  font-size: 22px;
-  font-weight: bold;
-  line-height: 1.8;
-  max-width: 250px;
-  align-content: center;
-  text-decoration: none !important;
-}
-
 header {
   background-color: #fff;
   margin: 0 auto;
@@ -52,6 +41,8 @@ main {
 
 .roles {
   font-size: 14px;
+  padding-top: 0;
+  color: #717171;
 }
 
 #work p {
