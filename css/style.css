@@ -41,8 +41,8 @@ main {
 
 .roles {
   font-size: 14px;
-  padding-top: 0 !important;
   color: #717171;
+  font-weight: 600;
 }
 
 #work p {
