@@ -64,7 +64,7 @@ nav>ul {
 }
 
 nav>ul>li>a {
-  padding: 0 15px 0;
+  padding-right: 15px;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 16px;
