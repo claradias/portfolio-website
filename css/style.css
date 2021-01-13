@@ -59,7 +59,8 @@ main {
   margin-top: 35px !important;
   position: relative;
   display: block;
-  max-height: 400px;
+  width: 100%;
+  height: auto;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19);
 }
 
