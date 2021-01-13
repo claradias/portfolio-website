@@ -57,20 +57,6 @@ main {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19);
 }
 
-#aboutme {
-  padding: 10px 0;
-  font-weight: 400;
-  line-height: 1.2em;
-  background-color: #fff;
-  text-align: left;
-  position: relative;
-  width: 100%;
-  align-items: center;
-  display: inline-flex;
-  font-size: 17px;
-  margin-top: auto !important;
-}
-
 nav>ul {
   list-style-type: none;
   padding: 0;
@@ -78,9 +64,9 @@ nav>ul {
 }
 
 nav>ul>li>a {
-  padding: 0 15px;
+  padding: 0 15px 0;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 16px;
   color: #00785d;
 }
@@ -475,12 +461,6 @@ Medium devices (640px and larger)
     font-size: 18px;
   }
 
-  #aboutme [class*="col-"] {
-    float: left;
-    padding-left: 0;
-    padding-right: 15px;
-  }
-
   #work [class*="col-"] {
     padding-left: 0;
     padding-right: 15px;
@@ -575,10 +555,6 @@ Medium devices (640px and larger)
     display: table;
   }
 
-  #about-page h3 {
-    margin-top: 0;
-  }
-
   img {
     width: 100%;
   }
@@ -669,11 +645,6 @@ Large devices (1024px or larger)
 
   #hero {
     font-size: 20px;
-    align-items: center;
-    display: flex;
-  }
-
-  #aboutme {
     align-items: center;
     display: flex;
   }
