@@ -57,7 +57,7 @@ main {
 #work img {
   margin-bottom: 0 !important;
   margin-top: 35px !important;
-  position: absolute;
+  position: relative;
   display: inline;
   width: 100%;
   height: auto;
