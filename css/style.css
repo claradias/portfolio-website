@@ -291,9 +291,8 @@ footer {
 
 #contact p {
   font-size: 14px;
-  margin: 10px;
-  color: #000;
-  align-items: left;
+  margin-left: 0;
+  color: #717171;
 }
 
 .icons {
