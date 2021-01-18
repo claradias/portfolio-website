@@ -335,8 +335,7 @@ footer {
 
 .persona {
   width: 50%;
-  display: inline-block;
-  position: relative;
+  position: absolute;
 }
 
 .subtitle {
