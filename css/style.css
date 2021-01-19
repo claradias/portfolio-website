@@ -708,7 +708,7 @@ X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
   nav>ul {
-    margin: 0.2em 0;
+    margin: 20px 0;
   }
 
   body {
