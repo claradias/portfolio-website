@@ -293,6 +293,7 @@ footer {
 
 .persona {
   width: 50%;
+  display: inline-block;
 }
 
 .subtitle {
