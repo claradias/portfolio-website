@@ -18,7 +18,7 @@ html {
 
 header {
   background-color: #fff;
-  margin: 0 auto;
+  margin: 20px 0;
   position: fixed;
   width: 100%;
   z-index: 9999;
@@ -77,63 +77,10 @@ main {
   text-decoration: underline;
 }
 
-nav>ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
 
-nav>ul>li>a {
-  padding-right: 20px;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 16px;
-  color: #00785d;
-}
-
-nav a {
-  color: #00785d !important;
-}
-
-nav a:hover {
-  color: #00ab84 !important;
-  text-decoration: underline;
-}
-
-nav>ul>li>a:active :visited {
+.navigation a:active :visited {
   color: #00785d !important;
   text-decoration: underline;
-}
-
-.navtoggle li:not(:last-child) {
-  display: none;
-}
-
-.navtoggle,
-.navtoggle.responsive {
-  position: relative;
-}
-
-.navtoggle.responsive nav {
-  padding: 20px 0 0;
-}
-
-.navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 5px;
-  font-size: 20px;
-  padding-right: 0;
-}
-
-.navtoggle.responsive li {
-  display: block;
-  padding: 10px 0;
-  border-top: 1px solid rgba(0, 120, 0, 93);
-}
-
-.navtoggle.responsive li:last-child {
-  padding: 0 0 10px;
 }
 
 body {
@@ -480,6 +427,8 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 5px 0;
     line-height: 0.45;
+      margin-top: 30px;
+    }
   }
 
   #hero {
@@ -489,36 +438,6 @@ Medium devices (640px and larger)
   #work [class*="col-"] {
     padding-left: 0;
     padding-right: 15px;
-  }
-
-  nav {
-    width: auto;
-    float: left;
-  }
-
-  nav>ul {
-    margin: 1em 0;
-  }
-
-  nav>ul>li {
-    display: inline-block;
-  }
-
-  .navtoggle li:not(:last-child) {
-    display: inline-block;
-  }
-
-  .navtoggle li:last-child {
-    display: none;
-  }
-
-  .navtoggle.responsive nav {
-    padding: 0;
-  }
-
-  .navtoggle.responsive li {
-    padding: 0;
-    border-top: none;
   }
 
   main {
@@ -654,14 +573,13 @@ Medium devices (640px and larger)
   #problem {
     margin-bottom: 40px;
   }
-}
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
   header {
-    line-height: 0;
+    margin-top: 30px;
   }
 
   body {
@@ -707,8 +625,8 @@ Large devices (1024px or larger)
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
-  .navigation {
-    margin: 20px 0;
+  header {
+    margin-top: 30px;
   }
 
   body {
