@@ -20,12 +20,13 @@ header {
   background-color: #fff;
   margin: 20px 0;
   position: fixed;
+  display: block;
   width: 100%;
   z-index: 9999;
 }
 
 main {
-  padding-top: 46px;
+  padding-top: 80px;
 }
 
 #hero {
