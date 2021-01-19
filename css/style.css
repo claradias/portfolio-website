@@ -18,8 +18,7 @@ html {
 
 header {
   background-color: #fff;
-  margin: 20px 0;
-  position: relative;
+  position: fixed;
   width: 100%;
   z-index: 9999;
 }
@@ -424,8 +423,7 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) {
   header {
     padding: 5px 0;
-    line-height: 4;
-    margin-top: 30px;
+    line-height: 2;
   }
 
   #hero {
@@ -575,10 +573,6 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
   @media only screen and (min-width: 1024px) {
-    header {
-      margin-top: 30px;
-    }
-
     body {
       font-size: 20px;
     }
