@@ -294,7 +294,7 @@ footer {
 
 .persona {
   width: 50%;
-  display: block;
+  align-items: center !important;
 }
 
 .subtitle {
