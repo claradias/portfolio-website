@@ -225,8 +225,9 @@ a:hover {
 .berlin-illustration {
   margin: 27px 0 0;
   display: block;
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
 }
 
 .css {
