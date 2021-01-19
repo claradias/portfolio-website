@@ -294,7 +294,7 @@ footer {
 
 .persona {
   width: 50%;
-  align-items: center !important;
+  display: inline;
 }
 
 .subtitle {
