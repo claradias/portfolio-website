@@ -77,7 +77,6 @@ main {
   text-decoration: underline;
 }
 
-
 .navigation a:active :visited {
   color: #00785d !important;
   text-decoration: underline;
@@ -572,108 +571,108 @@ Medium devices (640px and larger)
     margin-bottom: 40px;
   }
 
-/* ==============================
+  /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
-  header {
-    margin-top: 30px;
+  @media only screen and (min-width: 1024px) {
+    header {
+      margin-top: 30px;
+    }
+
+    body {
+      font-size: 20px;
+    }
+
+    #hero {
+      font-size: 20px;
+      align-items: center;
+      display: flex;
+    }
+
+    .col-lg-6 {
+      width: 50%;
+    }
+
+    .col-lg-12 {
+      width: 100%;
+    }
+
+    .container {
+      max-width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* VOCAB PROJECT */
+    #flow2 img {
+      display: block;
+      margin: 20px auto;
+    }
+
+    .Emmet {
+      margin: auto 0;
+    }
+
+    .statement {
+      margin: 40px 0 20px;
+    }
   }
 
-  body {
-    font-size: 20px;
-  }
-
-  #hero {
-    font-size: 20px;
-    align-items: center;
-    display: flex;
-  }
-
-  .col-lg-6 {
-    width: 50%;
-  }
-
-  .col-lg-12 {
-    width: 100%;
-  }
-
-  .container {
-    max-width: 850px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* VOCAB PROJECT */
-  #flow2 img {
-    display: block;
-    margin: 20px auto;
-  }
-
-  .Emmet {
-    margin: auto 0;
-  }
-
-  .statement {
-    margin: 40px 0 20px;
-  }
-}
-
-/* ==============================
+  /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-  header {
-    margin-top: 30px;
+  @media only screen and (min-width: 1440px) {
+    header {
+      margin-top: 30px;
+    }
+
+    body {
+      font-size: 20px;
+    }
+
+    .container {
+      max-width: 1200px !important;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .col-xl-12 {
+      width: 100%;
+    }
+
+    .col-xl-6 {
+      width: 50%;
+    }
+
+    .row-xl-6 {
+      width: 50%;
+    }
+
+    [class*="col-"] {
+      float: left;
+      padding: 0 20px;
+      margin: 0 auto;
+    }
+
+    li {
+      max-width: 850px;
+      margin: 16px auto;
+    }
+
+    .row {
+      margin: 2px auto;
+    }
+
+    .Emmet {
+      margin: 80px 0;
+    }
+
+    .statement {
+      margin: 40px 0 20px;
+    }
   }
 
-  body {
-    font-size: 20px;
-  }
-
-  .container {
-    max-width: 1200px !important;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .col-xl-12 {
-    width: 100%;
-  }
-
-  .col-xl-6 {
-    width: 50%;
-  }
-
-  .row-xl-6 {
-    width: 50%;
-  }
-
-  [class*="col-"] {
-    float: left;
-    padding: 0 20px;
-    margin: 0 auto;
-  }
-
-  li {
-    max-width: 850px;
-    margin: 16px auto;
-  }
-
-  .row {
-    margin: 2px auto;
-  }
-
-  .Emmet {
-    margin: 80px 0;
-  }
-
-  .statement {
-    margin: 40px 0 20px;
-  }
-}
-
-/* ==============================
+  /* ==============================
 Extra-large devices (1920px or larger)
 =================================
 @media only screen and (min-width: 1920px) {} */
