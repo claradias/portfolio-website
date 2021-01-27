@@ -226,7 +226,6 @@ video-container {
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
-  object-fit: contain;
 }
 
 .video-container iframe,
