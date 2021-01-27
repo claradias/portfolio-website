@@ -218,8 +218,6 @@ a:hover {
 
 .video-container {
   position: relative;
-  height: calc(177.778vw);
-  max-width: calc(56.25vh);
   overflow: hidden;
   display: flex;
   -webkit-box-align: center;
