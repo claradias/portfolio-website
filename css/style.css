@@ -227,7 +227,7 @@ a:hover {
 
 .w-embed:before, .w-embed:after {
     content: " ";
-    display: table;
+    display: flex;
     grid-column-start: 1;
     grid-row-start: 1;
     grid-column-end: 2;
