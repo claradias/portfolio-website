@@ -216,26 +216,42 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.video-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  max-height: 100%;
-  display: flex;
-  object-fit: contain;
+.html-embed {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 23%;
 }
 
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  width: 100%;
-  max-height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: transparent;
-  position: relative;
-  overflow: visible;
-  border-collapse: separate;
+.w-embed:before, .w-embed:after {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+}
+
+iframe [Attributes Style] {
+    width: 320px;
+    height: 640px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+iframe {
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.w-embed:after {
+    clear: both;
 }
 
 .inki {
