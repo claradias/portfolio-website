@@ -219,7 +219,7 @@ a:hover {
 .html-embed {
     position: relative;
     z-index: 1;
-    display: block;
+    display: flex;
     margin-right: auto;
     margin-left: auto;
     padding-left: 23%;
@@ -230,21 +230,11 @@ a:hover {
     display: flex;
     grid-column-start: 1;
     grid-row-start: 1;
-    grid-column-end: 2;
-    grid-row-end: 2;
-}
-
-iframe [Attributes Style] {
-    width: 320px;
-    height: 640px;
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
+    grid-column-end: 1;
+    grid-row-end: 1;
 }
 
 iframe {
-    border-width: 2px;
     border-style: inset;
     border-color: initial;
     border-image: initial;
@@ -252,6 +242,9 @@ iframe {
 
 .w-embed:after {
     clear: both;
+    display: flex;
+    position: relative;
+    object-fit: contain;
 }
 
 .inki {
