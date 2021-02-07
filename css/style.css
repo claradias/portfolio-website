@@ -389,8 +389,16 @@ h6 {
   color: #6b3279;
 }
 
+.spacing {
+margin-top: 40px !important;
+}
+
+.spacing img {
+  margin-top: 40px !important;
+}
+
 /* Daily UI project */
-.travel img{
+.travel img {
 margin-top: 20px !important;
 }
 
