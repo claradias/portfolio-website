@@ -253,8 +253,9 @@ iframe {
 }
 
 .berlin-illustration {
-  margin: 27px 0 0;
+  margin: 40px 0 0;
   display: block;
+  position: relative;
   height: auto;
   width: 100%;
   max-width: 100%;
@@ -308,6 +309,10 @@ footer {
 
 .icons a:hover {
   color: #00ab84;
+}
+
+.title{
+  margin-top: 80px;
 }
 
 /* VOCAB project */
@@ -382,6 +387,28 @@ h6 {
 
 .h1 {
   color: #6b3279;
+}
+
+/* Daily UI project */
+.travel img{
+margin-top: 20px !important;
+}
+
+#ui img {
+  margin-top: 120px;
+  margin-bottom: 10px;
+}
+
+#ui h1{
+  margin-top: 40px ;
+}
+
+#ui p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 auto;
+  color: #000;
+  text-align: center;
 }
 
 /* Community */
