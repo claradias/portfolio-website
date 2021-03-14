@@ -42,6 +42,20 @@ main {
   margin-top: 40px !important;
 }
 
+#about [class*="col-"] {
+  padding: 0;
+}
+
+#about img {
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19);
+}
+
+.toolkit {
+  line-height: 0.7em!important;
+}
+
 .roles {
   font-size: 14px;
   color: #717171;
@@ -311,7 +325,7 @@ footer {
   color: #00ab84;
 }
 
-.title{
+.title {
   margin-top: 80px;
 }
 
