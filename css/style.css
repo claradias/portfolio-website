@@ -50,10 +50,28 @@ main {
   width: 45%;
   border-radius: 10px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px 0;
+}
+
+#about h3{
+  margin: 0;
+}
+
+#about .title {
+    margin-top: 45px;
+  }
+
+.title1 {
+  margin-top: 85px
 }
 
 .toolkit {
-  line-height: 0.7em!important;
+  line-height: 0.6em !important;
+}
+
+.line {
+  padding-top: 45px;
+  border-top: 1px solid #f4f4f4;
 }
 
 .roles {
@@ -92,7 +110,8 @@ main {
 
 .navigation a:active :visited {
   color: #00785d !important;
-  text-decoration: underline;
+  text-decoration: underline !important;
+  font-weight: 800;
 }
 
 body {
@@ -231,33 +250,33 @@ a:hover {
 }
 
 .html-embed {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .w-embed:before, .w-embed:after {
-    content: " ";
-    display: flex;
-    grid-column-start: 1;
-    grid-row-start: 1;
-    grid-column-end: 1;
-    grid-row-end: 1;
+  content: " ";
+  display: flex;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 1;
+  grid-row-end: 1;
 }
 
 iframe {
-    border-style: inset;
-    border-color: initial;
-    border-image: initial;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
 }
 
 .w-embed:after {
-    clear: both;
-    display: flex;
-    position: relative;
-    object-fit: contain;
+  clear: both;
+  display: flex;
+  position: relative;
+  object-fit: contain;
 }
 
 .inki {
@@ -404,7 +423,7 @@ h6 {
 }
 
 .spacing {
-margin-top: 40px !important;
+  margin-top: 40px !important;
 }
 
 .spacing img {
@@ -413,7 +432,7 @@ margin-top: 40px !important;
 
 /* Daily UI project */
 .travel img {
-margin-top: 20px !important;
+  margin-top: 20px !important;
 }
 
 #ui img {
@@ -421,8 +440,8 @@ margin-top: 20px !important;
   margin-bottom: 10px;
 }
 
-#ui h1{
-  margin-top: 40px ;
+#ui h1 {
+  margin-top: 40px;
 }
 
 #ui p {
