@@ -47,10 +47,17 @@ main {
 }
 
 #about img {
-  width: 45%;
+  width: 35%;
   border-radius: 10px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19);
   margin: 20px 0;
+}
+
+#system img {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 !important;
+  padding: 0 !important;
+  border-radius: 4px;
 }
 
 #about h3{
@@ -68,6 +75,10 @@ main {
 #about .title {
     margin-top: 45px;
   }
+
+.description {
+  max-width: 77%;
+}
 
 #process p {
 max-width: 85%;
@@ -255,11 +266,6 @@ a:hover {
   font-size: 1.3em;
   font-weight: 700;
   margin: 18px 0;
-}
-
-#system {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 20px;
 }
 
 .html-embed {
