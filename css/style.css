@@ -367,6 +367,23 @@ footer {
   margin-top: 80px;
 }
 
+/* Electric Juice project */
+#electric h1 {
+  color: #FF0074;
+}
+
+#electric h5 {
+  color: #FF0074;
+}
+
+.spacing1 img {
+  margin-top: 0 !important;
+}
+
+.spacing2 h3 {
+  margin-top: 70px !important;
+}
+
 /* VOCAB project */
 .Emmet {
   margin: auto;
@@ -395,7 +412,7 @@ footer {
   color: #006b99;
 }
 
-.statement {
+#statement {
   background-color: #fff;
   margin: 20px 0;
   padding: 5px;
@@ -403,6 +420,10 @@ footer {
   transition: 0.2s opacity;
   border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 13px 0 rgba(0, 0, 0, 0.19);
+}
+
+#statement [class*="col-"] {
+  padding: 0 20px !important;
 }
 
 .statement h4 {
@@ -555,6 +576,11 @@ Medium devices (640px and larger)
     padding-right: 15px;
   }
 
+  #vocab [class*="col-"] {
+    padding-left: 0;
+    padding-right: 15px;
+  }
+
   main {
     padding-top: 56px;
   }
@@ -601,7 +627,6 @@ Medium devices (640px and larger)
 
   [class*="col-"] {
     float: left;
-    padding: 0 20px;
   }
 
   .row {
@@ -756,7 +781,6 @@ X-large devices (1440px or larger)
 
     [class*="col-"] {
       float: left;
-      padding: 0 20px;
       margin: 0 auto;
     }
 
@@ -771,6 +795,7 @@ X-large devices (1440px or larger)
 
     .Emmet {
       margin: 80px 0;
+
     }
 
     .statement {
