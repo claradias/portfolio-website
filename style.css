@@ -68,7 +68,8 @@ main {
 }
 
 #work img {
-  margin-bottom: 0 !important;
+margin-bottom: 0 !important;
+border-radius: 20px;
 }
 
 .projects {
@@ -81,6 +82,10 @@ main {
   -webkit-filter: blur(5px);
   z-index: -1;
   opacity: 0.5;
+}
+
+.projects img {
+  border-radius: 20px;
 }
 
 .overlay {
@@ -232,6 +237,7 @@ h4 {
 
 img {
   width: 100%;
+  border-radius: 20px;
 }
 
 a {
